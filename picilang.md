@@ -2,9 +2,9 @@
 
 ## Grammar
 
-The grammar is simple and there are no exceptions\*.
+The grammar is simple and there are (almost) no exceptions\*.
 
-\*: with the only exception from the "no exception" rule being the letter `y`.
+\*: with the only exceptions from the "no exception" rule being the letter `y` and the way numbers are formed.
 
 ### Alphabet and pronunciation
 
@@ -20,11 +20,18 @@ Nothing is capitalized by default, although the first word of a sentence can be 
 
 Transliterated/foreign/loanwords are always capitalized.
 
+The stress is on either the first syllable or, in case of compound words, on the first syllable of the root word which you want to emphasize. To visually represent stress or emphasis, you can use an accute accent on the stressed syllable's vowel  (`a => á, i => í, o => ó`).
+
 ### Word structure
 
 Words are made out of CVs (consonant, vowel, optional semivowel) consonants, where `C = {k, l, m, n, p, s, t}; V = {a, i, o}; s = {w, y}`.
 
-Compound words are hyphenated and for all intents and purposes are a single word. Two or more nouns, verb and modifiers can be combined into compound words, but you cannot combine words of different part of speech! An example for a compound word is _ko-si_, which means "communication system" or "system of communication".
+#### Compound words
+
+Compound words are hyphenated and for all intents and purposes are a single word. Two or more words of the same part of speech can be combined into compound words, but you cannot combine words of different part of speech! An example for a compound word is _ko-si_, which means "communication system" or "system of communication".
+
+The "main", "more significant" or "broader" root word should be the last one and "specifying" roots precede them, for example in _ko-si_, "si" means "system" and "ko" means "communication".  
+However, it is customary to place `nay`, `ma` and `lo` at the end of compound words, ta Kosapisota kiwti la.
 
 ### Word order
 
@@ -38,7 +45,43 @@ Prepositions are followed by noun phrases and are located at the end of sentence
 
 ### Numbers
 
+Picilang has two separate number systems, one for general everyday use and one to express precise numbers in base 10. 
 
+#### Imprecise/general numbers
+
+These are always used as modifiers and can only be used in noun phrases.
+
+The general system consists of 4 words that are `nay`, `lo`, `ki` and `muti` meaning "zero", "one", "many" and "unreasonable amount/number".
+
+#### Precise numbers
+
+Precise numbers can be used as modifiers in noun praces (as long as they are integers) or, alternatively, you can form a phrase meaning "X number of units of noun", "Y fractions of noun" or "X number and Y fractions of noun" using the nouns `noy` and `ta` to express units (whole numbers) and fractions respectively, `pi` to express "number of" and `ko` between the units and fractions.
+
+Even though technically all numbers are compound words consisting multiple modifiers, the actual digits are treated and written as a simple modifier.
+
+To use precise numbers, you can use the words from 0 to 9 and simply read out the number from lowest to highest decimal places (or "right to left"). These numbers are:
+
+Word | Number
+-----+-------
+nay | zero
+na | one
+to | two
+ti | three
+po | four
+pa | five
+si | six
+siw | seven
+tiy | eight
+no | nine
+
+Negatives are formed by forming a compound modifier ending in `nay` (effectively adding a 0 to the highest decimal place). Negatives can be used on both units and fractions. In both cases they effectively move the number towards the left on the number line.
+
+#### Examples
+
+- **14**: _napo_
+- **-42**: _poto-nay_
+- **-3.14**: _ti-nay noy ko pona-nay ta_ (-3 times 1 and -14 times 0.1) or _po-nay noy ko sitiy ta_ (-4 \* 1 + 86 \* 0.1)
+- **69.96**: _nosi noy ko sino ta_
 
 ### Names
 
