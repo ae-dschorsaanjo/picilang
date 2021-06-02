@@ -35,9 +35,9 @@ However, it is customary to place `nay`, `ma` and `lo` at the end of compound wo
 
 ### Word order
 
-The basic sentence structure is SVO (subject-verb-object), where the subject is always noun phrases, the predicate is always a verb phrase and an object is always a prepositional phrase.
+The basic sentence structure is SVO (subject-verb-object), where the subject and object are always noun phrases, the predicate is always a verb phrase.
 
-Phrases are head-final (the modifiers precede the head). Adjective phrases do not exist.
+Phrases are head-final (the modifiers precede the head). Modifier phrases are impossible.
 
 Conjunctions are used to connect two phrases or sentences together. Joined sentences are separated by a comma.
 
@@ -45,7 +45,9 @@ Prepositions are followed by noun phrases and are located at the end of sentence
 
 ### Numbers
 
-Picilang has two separate number systems, one for general everyday use and one to express precise numbers in base 10. 
+Picilang has two separate number systems, one for general everyday use and one to express precise numbers in base 10.
+
+Numbers should precede all the other modifiers in noun phrases.
 
 #### Imprecise/general numbers
 
@@ -55,24 +57,24 @@ The general system consists of 4 words that are `nay`, `lo`, `ki` and `muti` mea
 
 #### Precise numbers
 
-Precise numbers can be used as modifiers in noun praces (as long as they are integers) or, alternatively, you can form a phrase meaning "X number of units of noun", "Y fractions of noun" or "X number and Y fractions of noun" using the nouns `noy` and `ta` to express units (whole numbers) and fractions respectively, `pi` to express "number of" and `ko` between the units and fractions.
+Precise numbers can be used as modifiers in noun phrases (as long as they are integers) or, alternatively, you can form a phrase meaning "X number of units of noun", "Y fractions of noun" or "X number and Y fractions of noun" using the nouns `noy` and `ta` to express units (whole numbers) and fractions respectively, `pi` to express "number of" and `ko` between the units and fractions.
 
 Even though technically all numbers are compound words consisting multiple modifiers, the actual digits are treated and written as a simple modifier.
 
 To use precise numbers, you can use the words from 0 to 9 and simply read out the number from lowest to highest decimal places (or "right to left"). These numbers are:
 
-Word | Number
------+-------
-nay | zero
-na | one
-to | two
-ti | three
-po | four
-pa | five
-si | six
-siw | seven
-tiy | eight
-no | nine
+| Word | Number |
+|------|--------|
+| nay  | zero   |
+| na   | one    |
+| to   | two    |
+| ti   | three  |
+| po   | four   |
+| pa   | five   |
+| si   | six    |
+| siw  | seven  |
+| tiy  | eight  |
+| no   | nine   |
 
 Negatives are formed by forming a compound modifier ending in `nay` (effectively adding a 0 to the highest decimal place). Negatives can be used on both units and fractions. In both cases they effectively move the number towards the left on the number line.
 
