@@ -19,6 +19,7 @@ _Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimali
 - small alphabet (a, i, o, w, y, k, l, m, n, p, s, t)
 - CVs syllables (Consonant, Vowel, optional semi-vowel)
 - 5 parts of speech (Noun, Verb, Modifier, Conjunction, Preposition)
+- no verb tenses, moods or aspects
 
 ## Where to find stuff
 
