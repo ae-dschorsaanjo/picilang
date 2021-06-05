@@ -23,7 +23,7 @@ _Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimali
 
 ## Where to find stuff
 
-- Read the documentation [here](picilang.md),
+- Read the documentation <a id="doclink" href="picilang.md">here</a>,
 - Check out the dictionary [here](dictionary.csv),
 - Or you can check out the website once it's done.
 
