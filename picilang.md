@@ -1,10 +1,14 @@
-# Picilang
+# Picilang<a id="top"></a>
 
 The grammar is simple and there are (almost) no exceptions\*.
 
 \*: with the only exceptions from the "no exception" rule being the way numbers are formed.
 
-## Alphabet and pronunciation
+## Table of Contents <a id="toc" href="#top">¤</a>
+
+- [Alphabet and pronunciation](#abc)
+
+## Alphabet and pronunciation <a id="abc" href="#top">¤</a>
 
 The alphabet has 12 letters, consisting of 3 vowels, 2 semi-vowels and 7 consonants.
 
@@ -18,7 +22,7 @@ Nothing is capitalized by default, although the first word of a sentence can be 
 
 Transliterated/foreign/loanwords are always capitalized.
 
-The stress is on either the first syllable or, in case of compound words, on the first syllable of the root word which you want to emphasize. To visually represent stress or emphasis, you can use an accute accent on the stressed syllable's vowel  (`a => á, i => í, o => ó`).
+The stress is on either the first syllable or, in case of compound words, on the first syllable of the root word which you want to emphasize. To visually represent stress or emphasis, you can use an acute accent on the stressed syllable's vowel  (`a => á, i => í, o => ó`).
 
 ## Word structure
 

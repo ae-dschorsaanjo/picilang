@@ -29,7 +29,7 @@ _Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimali
 
 ## License
 
-Copyright © 2021 ae-dschorsaanjo <b.zoltan.gorza@gmail.com>
+Copyright © 2021 ae-dschorsaanjo (b.zoltan.gorza@gmail.com)
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,

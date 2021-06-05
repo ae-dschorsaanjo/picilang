@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picilang</title>
+    <link rel="stylesheet" href="css/default.css">
+</head>
+
+<body>
+    <div id="md"></div>
+
+    <div id="csv">
+        <h2 id="dict">Dictionary</h2>
+        <label for="csv-search">Search:</label>
+        <input type="text" id="csv-search" placeholder="lisi lisa">
+        <label for="csv-mode">Mode:</label>
+        <select id="csv-mode">
+            <option name="any" selected="selected">Any</option>
+            <option name="picilang">Picilang</option>
+            <option name="english">English</option>
+        </select>
+        <button id="csv-btn">Search</button>
+        <div id="csv-out"></div>
+    </div>
+
+    <div id="license">
+        Copyright © 2021 ae-dschorsaanjo (b.zoltan.gorza@gmail.com)
+
+        This work is free. You can redistribute it and/or modify it under the
+        terms of the Do What The Fuck You Want To Public License, Version 2,
+        as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
+    </div>
+
+    <script src="js/markdown.js"></script>
+    <script>
+        async function main() {
+            let s = ""
+            await fetch("picilang.md")
+                .then(r => r.text())
+                .then(data => {
+                    s = data;
+                });
+            window["markdown"].ready.then(markdown => {
+                document.getElementById("md").innerHTML = markdown.parse(s);
+            });
+        }
+        main();
+    </script>
+    <script type="module" src="js/csvanilla.js"></script>
+    <script type="module">
+        import { CSVanilla } from "./js/csvanilla.js"
+        const csvanilla = new CSVanilla(
+            "dictionary.csv",
+            "csv-search",
+            "csv-mode",
+            "csv-btn"
+        );
+    </script>
+</body>
+
+</html>
