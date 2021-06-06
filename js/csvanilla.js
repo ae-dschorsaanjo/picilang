@@ -12,7 +12,7 @@ class CSVLine {
 
 class CSV {
     constructor(txt) {
-        console.log(txt);
+        
     }
 }
 

@@ -4,14 +4,14 @@
 
 _Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimalist constructed language designed to be easy to learn and use, although it does not have any restrictions on number of words; the goal is to be easy to use even for beginners with the help of a dictionary (that I plan to create).
 
-## Plans for website
+## Plans for website <a id="plans" href="#plans">&#5130;</a><a></a>
 
 - hosted on github
 - based on this markdown
 - interactive dictionary
 - easy-to-print version (doc + dictionary)
 
-## Features
+## Features <a id="features" href="#features">&#5130;</a><a></a>
 
 - SVO word order
 - head-final
@@ -21,12 +21,13 @@ _Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimali
 - 5 parts of speech (Noun, Verb, Modifier, Conjunction, Preposition)
 - no verb tenses, moods or aspects
 
-## Where to find stuff
+## Where to find stuff <a id="whereto" href="#whereto">&#5130;</a><a></a>
 
 - Read the documentation <a id="doclink" href="picilang.md">here</a>,
-- Check out the dictionary [here](dictionary.csv),
-- Or you can check out the website once it's done.
+- Check out the raw dictionary <a id="dictlink" href="dictionary.csv">here</a>,
+- Or you can check out the website once it's done should be <a href="https://gobzo.hu/picilang">here</a>.
 
+<div class="hide">
 ## License
 
 Copyright © 2021 ae-dschorsaanjo (b.zoltan.gorza@gmail.com)
@@ -34,3 +35,4 @@ Copyright © 2021 ae-dschorsaanjo (b.zoltan.gorza@gmail.com)
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
 as published by Sam Hocevar. See the [COPYING](./COPYING) file for more details.
+</div>

@@ -7,47 +7,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picilang</title>
     <link rel="stylesheet" href="css/default.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="md"></div>
+    <header>
+        <div id="header">
+            <a id="homehead" class="item" href="#readme">Home</a>
+            <a id="grammarhead" class="item" href="#md">Grammar</a>
+            <a id="dictionaryhead" class="item" href="#dictionary">Dictionary</a>
+        </div>
+    </header>
+    <a id="top"></a>
 
-    <div id="csv">
-        <h2 id="dict">Dictionary</h2>
-        <label for="csv-search">Search:</label>
-        <input type="text" id="csv-search" placeholder="lisi lisa">
-        <label for="csv-mode">Mode:</label>
-        <select id="csv-mode">
-            <option name="any" selected="selected">Any</option>
-            <option name="picilang">Picilang</option>
-            <option name="english">English</option>
-        </select>
-        <button id="csv-btn">Search</button>
-        <div id="csv-out"></div>
+    <div id="readme" class="page"></div>
+
+    <div id="md" class="page"></div>
+
+    <div id="dictionary" class="page">
+        <h1>Dictionary</h1>
+        <div>
+            <label for="csv-search">Search:</label>
+            <input type="text" id="csv-search" placeholder="lisi lisa">
+            <label for="csv-mode">Mode:</label>
+            <select id="csv-mode">
+                <option name="any" selected="selected">Any</option>
+                <option name="picilang">Picilang</option>
+                <option name="english">English</option>
+            </select>
+            <button id="csv-btn">Search</button>
+            <div id="csv-out"></div>
+        </div>
     </div>
 
-    <div id="license">
+    <h2>License <a id="license" href="#license">&#5130;</a> <a href="#top">&#5123;</a></h2>
+    <div class="license">
         Copyright © 2021 ae-dschorsaanjo (b.zoltan.gorza@gmail.com)
 
         This work is free. You can redistribute it and/or modify it under the
         terms of the Do What The Fuck You Want To Public License, Version 2,
         as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
+
+        The website also uses the following scripts and resources:
+        <ul>
+            <li><a href="https://github.com/rsms/markdown-wasm">markdown-wasm</a>, available under the MIT license,</li>
+            <li><a href="https://fonts.google.com/specimen/Source+Sans+Pro">Source Sans Pro</a> and <a
+                    href="https://fonts.google.com/specimen/Source+Code+Pro">Source Code Pro</a> fonts, available under
+                Open Font License.</li>
+        </ul>
     </div>
 
     <script src="js/markdown.js"></script>
     <script>
+        const home = document.getElementById("readme");
+        const grammar = document.getElementById("md");
+        const dictionary = document.getElementById("dictionary");
+        const PAGE = "page";
+
+        let params = new URLSearchParams(document.location.search.substring(1));
+        let page = params.get(PAGE);
+
+        function showHome() {
+            home.style.display = "block";
+            grammar.style.display = "none";
+            dictionary.style.display = "none";
+            params.delete(PAGE);
+            window.history.replaceState({}, '', `${location.pathname}?${params}`);
+        }
+
+        function showGrammar(setparam = false) {
+            home.style.display = "none";
+            grammar.style.display = "block";
+            dictionary.style.display = "none";
+            if (setparam) {
+                params.set(PAGE, "grammar");
+                window.history.replaceState({}, '', `${location.pathname}?${params}`);
+            }
+        }
+
+        function showDictionary(setparam = false) {
+            home.style.display = "none";
+            grammar.style.display = "none";
+            dictionary.style.display = "block";
+            if (setparam) {
+                params.set(PAGE, "dictionary");
+                window.history.replaceState({}, '', `${location.pathname}?${params}`);
+
+            }
+        }
+
         async function main() {
-            let s = ""
+            let s = "";
+            let t = "";
             await fetch("picilang.md")
                 .then(r => r.text())
                 .then(data => {
                     s = data;
                 });
+            await fetch("README.md")
+                .then(r => r.text())
+                .then(data => {
+                    t = data;
+                })
             window["markdown"].ready.then(markdown => {
-                document.getElementById("md").innerHTML = markdown.parse(s);
+                home.innerHTML = markdown.parse(t);
+                grammar.innerHTML = markdown.parse(s);
+                document.getElementById("doclink").addEventListener("click", e => {
+                    showGrammar(true);
+                    e.preventDefault();
+                });
+                document.getElementById("dictlink").addEventListener("click", e => {
+                    showDictionary(true);
+                    e.preventDefault();
+                });
+
+                switch (page) {
+                    case "grammar":
+                        showGrammar();
+                        break;
+                    case "dictionary":
+                        showDictionary();
+                    default:
+                        showHome();
+                        break;
+                }
+
+                if (window.location.hash) {
+                    const h = window.location.hash.substring(1);
+                    if (e = document.getElementById(h)) {
+                        e.scrollIntoView();
+                    }
+                }
             });
         }
         main();
+
+        document.getElementById("homehead").addEventListener("click", e => {
+            showHome();
+            e.preventDefault();
+        });
+        document.getElementById("grammarhead").addEventListener("click", e => {
+            showGrammar(true);
+            e.preventDefault();
+        });
+        document.getElementById("dictionaryhead").addEventListener("click", e => {
+            showDictionary(true);
+            e.preventDefault();
+        });
     </script>
     <script type="module" src="js/csvanilla.js"></script>
     <script type="module">

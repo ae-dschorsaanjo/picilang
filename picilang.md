@@ -1,14 +1,34 @@
-# Picilang<a id="top"></a>
+# Picilang
+
+If you are on the website and not the raw markdown file (or a file generated from it), then you can go ahead and use the [**Dictionary**](#dict) right away.
+
+---
 
 The grammar is simple and there are (almost) no exceptions\*.
 
 \*: with the only exceptions from the "no exception" rule being the way numbers are formed.
 
-## Table of Contents <a id="toc" href="#top">¤</a>
+## Table of Contents <a id="toc" href="#toc">&#5130;</a> <a href="#top">&#5123;</a>
 
 - [Alphabet and pronunciation](#abc)
+- [Word structure](#ws)
+  - [Compound words](#cw)
+- [Parts of speech](#pos)
+- [Word order](#wo)
+- [Sentence types](#st)
+  - [Declarative sentences](#ds)
+  - [Interrogative sentences](#is)
+  - [Imperative sentences](#ims)
+- [naj, lo, ma, so and ka](#najlomasoka)
+- [Numbers](#nu)
+  - [General numbers](#gn)
+  - [Precise numbers](#ps)
+- [Date and time](#dt)
+- [Names](#nimi)
+  - [Transliterating names](#tl)
+- [Examples](#ex)
 
-## Alphabet and pronunciation <a id="abc" href="#top">¤</a>
+## Alphabet and pronunciation <a id="abc" href="#abc">&#5130;</a> <a href="#top">&#5123;</a>
 
 The alphabet has 12 letters, consisting of 3 vowels, 2 semi-vowels and 7 consonants.
 
@@ -24,24 +44,24 @@ Transliterated/foreign/loanwords are always capitalized.
 
 The stress is on either the first syllable or, in case of compound words, on the first syllable of the root word which you want to emphasize. To visually represent stress or emphasis, you can use an acute accent on the stressed syllable's vowel  (`a => á, i => í, o => ó`).
 
-## Word structure
+## Word structure <a id="ws" href="#ws">&#5130;</a> <a href="#top">&#5123;</a>
 
 Words are made out of CVs (consonant, vowel, optional semivowel) consonants, where `C = {k, l, m, n, p, s, t}; V = {a, i, o}; s = {w, y}`.
 
-### Compound words
+### Compound words <a id="cw" href="#cw">&#5130;</a> <a href="#top">&#5123;</a>
 
 Compound words are hyphenated and for all intents and purposes are a single word. Two or more words of the same part of speech can be combined into compound words, but you cannot combine words of different part of speech! An example for a compound word is _ko-si_, which means "communication system" or "system of communication".
 
 The "main", "more significant" or "broader" root word should be the last one and "specifying" roots precede them, for example in _ko-si_, "si" means "system" and "ko" means "communication".  
 However, it is customary to place `naj`, `ma` and `lo` at the end of compound words, ta Kosapisota kiwti la.
 
-## Parts of speech
+## Parts of speech <a id="pos" href="#pos">&#5130;</a> <a href="#top">&#5123;</a>
 
 Picilang has 5 parts of speech, _nouns, verbs, modifiers, conjunctions and prepositions_.
 
 Most of these work mostly like in English and many other languages, but _modifiers_ can be parts either noun or verb phrases, so there are no separate adjectives and adverbs.
 
-## Word order
+## Word order <a id="wo" href="#wo">&#5130;</a> <a href="#top">&#5123;</a>
 
 The basic sentence structure is SVO (subject-verb-object), where the subject and object are always noun phrases, the predicate is always a verb phrase.  
 Because the objects has to be noun phrases, sentences like "noun is adjective" are structured like "adjective noun is", e.g. _It is two._ would be _to na sa_ (literary "two it is").
@@ -53,17 +73,17 @@ When multiple phrases are joined by conjunctions, the conjunction has to be said
 
 Prepositions are followed by noun phrases and are located at the end of sentences, and a comma may be used to separate them from the rest of the sentence.
 
-## Sentence types
+## Sentence types <a id="st" href="#st">&#5130;</a> <a href="#top">&#5123;</a>
 
 Regardless of its type, a sentence always have at least a subject and a verb, and use SVO word order.
 
 Incomplete sentences are not allowed.
 
-### Declarative sentences
+### Declarative sentences <a id="ds" href="#ds">&#5130;</a> <a href="#top">&#5123;</a>
 
 Declarative sentences are the _default_, there is nothing special about them.
 
-### Interrogative sentences
+### Interrogative sentences <a id="is" href="#is">&#5130;</a> <a  href="#top">&#5123;</a>
 
 Interrogative sentences, also knows as "questions", has three types that have different sentence structures. They all end with a question mark. These types and their structures are:
 
@@ -89,7 +109,7 @@ Answers can be formed multiple ways, depending on what kind of question was used
   - ~ `kiwpi`, there is no object, but there is a full prepositional phrase at the end of the sentence (e.g. _kiw sa sipi ma_)
 - choice questions are answered by repeating the choice (or choices separated by `ko`), or using `naj la`, `naj-la` (meaning "none of these"), `so la`, `so-la` (meaning "all of these") or `ka la`, `ka-la` (meaning "any of these") followed by `sa`, or saying `ni liw X` (meaning "I want X"), `la sa X`, `na sa X` (meaning "it is" or "they are") or repeating the statement with X only, where X is the choice or choices.
 
-### Examples
+#### Examples
 
 **nomi kiwmo pi ti sa?** How many of you are there?  
 _kiw sa ponati._ \[There are\] 314.
@@ -108,23 +128,23 @@ _la Pokasi sa._ \[You are\] Bulgarian. _ti Pokasi sa._ You are Bulgarian.
 
 \*: Kosapisota is the transliteration of my name.
 
-### Imperative and exclamatory sentences
+### Imperative and exclamatory sentences <a id="ims" href="#ims">&#5130;</a> <a href="#top">&#5123;</a>
 
 Imperative (commands and wishes) and exclamatory sentences are structurally the same as declarative sentences, but they end with an exclamation mark.
 
-## naj, lo, ma, so and ka
+## naj, lo, ma, so and ka <a id="najlomasoka" href="#najlomasoka">&#5130;</a> <a href="#top">&#5123;</a>
 
 The words `naj`, `lo`, `ma`, `so` and `ka` are special in that they can be part of any compound word, but they normally cannot be used alone, except when they are used as numbers, or when they are part of a noun phrase and are used as modifiers.
 
 `naj` and `lo` also can be used as regular verbs for answering questions.
 
-## Numbers
+## Numbers <a id="nu" href="#nu">&#5130;</a> <a href="#top">&#5123;</a>
 
 Picilang has two separate number systems, one for general everyday use and one to express precise numbers in base 10.
 
 Numbers should precede all the other modifiers in noun phrases.
 
-### Imprecise/general numbers
+### Imprecise/general numbers <a id="gn" href="#gn">&#5130;</a> <a href="#top">&#5123;</a>
 
 These are always used as modifiers and can only be used in noun phrases.
 
@@ -132,7 +152,7 @@ The general system consists of 4 words that are `naj`, `lo`, `ki` and `muti` mea
 
 To express general numbers as nouns, you can always use `noj` (meaning "unit") or `li` (meaning "thing"), or `la`, if you refer back to a previously mentioned thing.
 
-### Precise numbers
+### Precise numbers <a id="ps" href="#ps">&#5130;</a> <a href="#top">&#5123;</a>
 
 Precise numbers can be used as modifiers in noun phrases (as long as they are integers) or, alternatively, you can form a phrase meaning "X number of units of noun", "Y fractions of noun" or "X number and Y fractions of noun" using the nouns `noj` and `ta` to express units (whole numbers) and fractions respectively, `pi` to express "number of" and `ko` between the units and fractions. This latter form is called _long number expression_.  
 If you only need to express a number, you can use `ta` in addition to the nouns listed under _general numbers_.
@@ -167,7 +187,7 @@ You can also express fractions (meaning literal fractions, "one third" and alike
 - **1995**: _panonona_
 - **1/4**: _na noj pi po NO_ (one quarter NOUN)
 
-## Dates and time
+## Date and time <a id="dt" href="#dt">&#5130;</a> <a href="#top">&#5123;</a>
 
 Dates (`tati`) and time (`tajmi`) are expressed the same way. You can also refer to date and time collectively as `tatitajmi`.
 
@@ -192,11 +212,11 @@ na noj ko pa ta pi napi
 _2 seconds and 587 milliseconds_  
 to noj ko siwtijpa ta pi siko
 
-## Names
+## Names <a id="nimi" href="#nimi">&#5130;</a> <a href="#top">&#5123;</a>
 
 Names must be valid words according to previous rules. The name order follows the Eastern name order, meaning that the surname preceded the given name(s).
 
-### Transliterating into Picilang
+### Transliterating into Picilang <a id="tl" href="#tl">&#5130;</a> <a href="#top">&#5123;</a>
 
 - Standard rules apply, including the name order.
 - Consonant and vowel clusters has to be broken down.
@@ -209,9 +229,13 @@ Names must be valid words according to previous rules. The name order follows th
 - Names and titles can be merged into one word when transliterated and this "work around" some of the restrictions.
 - For deciding what letter to you for sounds that aren't present in Picilang, you can use the following _professional_ tables:
 
-![consonants](img/consonants.png)
+<div class="center">
 
-![vowels](img/vowels.png)
+[![consonants](img/consonants.png)](img/consonants.png)
+
+[![vowels](img/vowels.png)](img/vowels.png)
+
+</div>
 
 These categories are only a recommendation that makes sense to me, not an official rule.
 
@@ -226,6 +250,6 @@ Examples:
 - Linux &gt; _Lino_
 - Audacity &gt; _Tawtasiti_
 
-## Examples
+## Examples <a id="ex" href="#ex">&#5130;</a> <a href="#top">&#5123;</a>
 
 Here you can find more and longer examples with further explanations in some cases.
