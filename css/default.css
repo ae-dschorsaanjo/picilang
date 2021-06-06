@@ -4,8 +4,11 @@
     --bg-color: #F1F5F5;
     --font-color: #0E1A0A;
     --link-color: #2f7557;
-    --main-color: hsl(154, 43%, 52%);
-    --sel-color: hsl(154, 43%, 72%);
+    --anti-link-color: #752f2f;
+    --main-color: #50b98c;
+    --sel-color: #99d6bc;
+    --mono-color: #d8e9e2;
+    --min-highlight: #e0e2de;
     --header-height: 2.5rem;
     --header-padding: 1ch;
     --body-padding: 1rem;
@@ -132,7 +135,7 @@ h3 {
 code {
     font-family: var(--font-monospace);
     font-size: 95%;
-    background-color: #d8e9e2;
+    background-color: var(--mono-color);
 }
 
 /* code::before, code::after {
@@ -147,6 +150,18 @@ img {
 
 .center {
     text-align: center;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.no {
+    color: var(--anti-link-color);
+}
+
+.yes {
+    color: var(--link-color);
 }
 
 .hide {
@@ -169,4 +184,95 @@ img {
 
 .license li {
     margin-left: 2em;
+}
+
+/* #csv-out {
+    margin: 2em auto;
+    overflow: scroll;
+    max-width: var(--body-width);
+    width: var(--body-width);
+}
+
+#csv-out tr {
+    height: 2em;
+}
+
+#csv-out th {
+    cursor: pointer;
+} */
+
+#csv-out .highlighted {
+    background-color: var(--sel-color);
+}
+
+#dict-head {
+    margin-bottom: 1.5em;
+    line-height: 2.5em;
+    text-align: center;
+}
+
+#dict-head input, #dict-head select, #dict-head button {
+    margin-left: 1ch;
+    margin-right: 1em;
+    border-style: ridge;
+    border-width: 2px;
+    padding: 0.5ch 1ch;
+}
+
+#dict-head input {
+    width: 10em;
+}
+
+#csv-out-body .entry {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 1ch;
+    margin: 0 1em;
+}
+
+#csv-out-body .entry:nth-of-type(2n) {
+    background-color: var(--min-highlight);
+    box-shadow: 0px 0px 10px 10px var(--min-highlight);
+}
+
+#csv-out-body .entry:nth-of-type(2n+1) {
+    margin-bottom: 0.75em;
+    margin-top: 0.75em;
+}
+
+#csv-out-body .entry>div {
+    margin-bottom: 0.5em;
+}
+
+#csv-out-body .pos {
+    font-family: var(--font-monospace);
+    /* background-color: var(--mono-color); */
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+#csv-out-body .word {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 1ch;
+}
+
+#csv-out-body .noun {}
+
+#csv-out-body .verb {}
+
+#csv-out-body .mod .pos::before, #csv-out-body .con .pos::before, #csv-out-body .pre .pos::before {
+    content: "⠀";
+}
+
+#csv-out-body .mod {}
+
+#csv-out-body .con {}
+
+#csv-out-body .pre {}
+
+#csv-out-body .note {
+    margin-top: 0.7em;
+    margin-left: 1em;
+    font-style: italic;
 }

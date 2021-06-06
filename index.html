@@ -28,18 +28,43 @@
     <div id="md" class="page"></div>
 
     <div id="dictionary" class="page">
-        <h1>Dictionary</h1>
+        <h1>Dictionary <span id="dictstatus" class="no"></span></h1>
         <div>
-            <label for="csv-search">Search:</label>
-            <input type="text" id="csv-search" placeholder="lisi lisa">
-            <label for="csv-mode">Mode:</label>
-            <select id="csv-mode">
-                <option name="any" selected="selected">Any</option>
-                <option name="picilang">Picilang</option>
-                <option name="english">English</option>
-            </select>
-            <button id="csv-btn">Search</button>
-            <div id="csv-out"></div>
+            <div id="dict-head">
+                <span class="nowrap">
+                    <label for="csv-search">Search:</label>
+                    <input type="text" id="csv-search" placeholder="lisi lisa">
+                </span>
+                <span class="nowrap">
+                    <label for="csv-mode">Mode:</label>
+                    <select id="csv-mode">
+                        <option name="picilang">Picilang</option>
+                        <option name="english">English</option>
+                        <option name="any" selected="selected">Any</option>
+                        <option name="any2">Any+notes</option>
+                    </select>
+                </span>
+                <span class="nowrap">
+                    <button id="csv-btn">Search</button>
+                    <button id="csv-clear">Clear</button>
+                    <span id="csv-feedback" class="nowrap"></span>
+                </span>
+            </div>
+            <!-- <table id="csv-out" class="sortable">
+                <thead>
+                    <tr>
+                        <th>Word</th>
+                        <th>Noun</th>
+                        <th>Verb</th>
+                        <th>Modifier</th>
+                        <th>Conjunction</th>
+                        <th>Preposition</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody id="csv-out-body"></tbody>
+            </table> -->
+            <div id="csv-out-body"></div>
         </div>
     </div>
 
@@ -53,19 +78,26 @@
 
         The website also uses the following scripts and resources:
         <ul>
-            <li><a href="https://github.com/rsms/markdown-wasm">markdown-wasm</a>, available under the MIT license,</li>
+            <li><a href="https://github.com/rsms/markdown-wasm">markdown-wasm</a>, available under the <a
+                    href="https://github.com/rsms/markdown-wasm/blob/master/LICENSE">MIT</a> license,</li>
+            <li><a href="http://www.kryogenix.org/code/browser/sorttable/">sorttable</a>, available under <a
+                    href="http://www.kryogenix.org/code/browser/licence.html">X11</a> license,</li>
             <li><a href="https://fonts.google.com/specimen/Source+Sans+Pro">Source Sans Pro</a> and <a
                     href="https://fonts.google.com/specimen/Source+Code+Pro">Source Code Pro</a> fonts, available under
                 Open Font License.</li>
         </ul>
     </div>
 
+    <script src="js/sorttable.js"></script>
     <script src="js/markdown.js"></script>
     <script>
         const home = document.getElementById("readme");
         const grammar = document.getElementById("md");
         const dictionary = document.getElementById("dictionary");
         const PAGE = "page";
+        const status = document.getElementById("dictstatus");
+        // const dicttable = document.getElementById("csv-out");
+        const feedback = document.getElementById("csv-feedback");
 
         let params = new URLSearchParams(document.location.search.substring(1));
         let page = params.get(PAGE);
@@ -95,7 +127,6 @@
             if (setparam) {
                 params.set(PAGE, "dictionary");
                 window.history.replaceState({}, '', `${location.pathname}?${params}`);
-
             }
         }
 
@@ -130,6 +161,7 @@
                         break;
                     case "dictionary":
                         showDictionary();
+                        break;
                     default:
                         showHome();
                         break;
@@ -160,13 +192,45 @@
     </script>
     <script type="module" src="js/csvanilla.js"></script>
     <script type="module">
-        import { CSVanilla } from "./js/csvanilla.js"
-        const csvanilla = new CSVanilla(
+        import * as csv from "./js/csvanilla.js"
+        const csvanilla = new csv.CSVanilla(
             "dictionary.csv",
             "csv-search",
             "csv-mode",
             "csv-btn"
         );
+
+        function searchResults() {
+            feedback.innerText = csv.buildResults(csvanilla.search(), "csv-out-body") + " matches.";
+        }
+
+        function listAllEntries() {
+            feedback.innerText = "";
+            csv.buildResults(csvanilla.master.lines, "csv-out-body");
+            csvanilla.textinput.value = "";
+        }
+
+        status.innerHTML = "&#10008;";
+        status.title = "not yet ready";
+        setTimeout(() => {
+            status.innerHTML = "&#10004;";
+            status.title = "ready";
+            status.classList.replace("no", "yes");
+            listAllEntries();
+            document.getElementById("csv-clear").addEventListener("click", e => {
+                listAllEntries();
+            });
+            csvanilla.button.addEventListener("click", e => {
+                searchResults();
+            });
+            csvanilla.textinput.addEventListener("keypress", e => {
+                if (e.keyCode == 13 && csvanilla.textinput.value != "") {
+                    searchResults();
+                    e.preventDefault();
+                }
+            });
+        }, 1000);
+
     </script>
 </body>
 
