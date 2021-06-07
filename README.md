@@ -28,6 +28,7 @@ _Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimali
 - Or you can check out the website once it's done should be <a href="https://gobzo.hu/picilang">here</a>.
 
 <div class="hide">
+
 ## License
 
 Copyright © 2021 ae-dschorsaanjo (b.zoltan.gorza@gmail.com)
