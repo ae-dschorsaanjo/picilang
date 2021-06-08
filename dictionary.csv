@@ -1,104 +1,110 @@
-"Word"	"Noun"	"Verb"	"Modifier"	"Conjunction"	"Preposition"	"Note"
-"ka"	"any-"	"using any method"	"any-"	"any-"	"any-"	"Expresses 'any of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech."
-"ki"	"collection (of); group (of)"	"multiply; gaining numbers; 'making plural'"	"plural; more than one; very"			
-"kili"					"through; across"	
-"kiti"			"small"			
-"kitilosa"				"less or equal; worse or the same; fewer or equal to"		
-"kitisa"				"less than; worse than; fewer than"		
-"kiw"	"(answer to a kiw- question)"	"lose; misplace"	"missing; lost;"			"Used as a noun only when you answer kiw- (or wh-) questions."
-"kiwko"				"(asking which conjunction)"		
-"kiwmo"			"which? what kind of? how?"			
-"kiwno"	"who? what?"					
-"kiwpi"					"(asking which preposition)"	
-"kiwti"	"enjoyment; fun; (non-sexual) pleasure"	"like; enjoy; pleases"	"pleasing; fun"			
-"kiwto"		"did what?"				
-"ko"	"communication"	"communicate; transferring thoughts and information"				
-"ko"	"conjunction"					
-"ko"				"and"		
-"ko-si"			"language; system of communication"			
-"kona"	"month"					
-"Kosapisota"			"B. ZoltÃ¡n Gorza"			
-"koti"	"year"					"year (used only as a unit of time and not for expressing which year it is or something was)"
-"la"	"of this; 'that thing you are referring to'"					"Used to refer back to previous object of topic. In many cases interchangeable with 'yo'."
-"lata"				"by; via; was possible because"		
-"li"	"thing; something; one; blank noun"					"Used similarily to English 'one' after adjectives. Also used when there would not be any nouns in the sentence (e.g. 'li nay' -- no; 'li lo' -- yes)"
-"lini"				"yet; despite the evidence/assumption/presumption"		
-"linito"	"the future"		"future; to become"			
-"linito-koti"	"year (ACE)"					"year after common era (I donâ€™t have a definition when that would begin either)"
-"lisa"	"writing"	"text"	"write"	"written"		
-"lisi"		"search; seek; look for"	"searched for; looked for; wanted"			
-"liw"	"wish; object of (non-sexual) desire"	"want; wish for"	"wanted; wished; desired"			
-"Liwlopa"			"Europe"			
-"lo"	"only; nothing else but"	"only; nothing else but; (as standalone verb) replying 'yes'"	"only; nothing else but; one (number)"	"only; nothing else but"	"only; nothing else but"	"Expresses 'only X', implying that no one/nothing else is true besides X. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech."
-"lo"					"in; within; at the time of"	
-"lola"	"hour"					
-"low"	"the past"		"previous"	"previously"	"in the past"	
-"low-koti"	"year (BCE)"					"year before common era"
-"ma"	"anti-; the opposite of"	"anti-; the opposite of"	"anti-; the opposite of;"	"anti-; the opposite of"	"anti-; the opposite of"	"Expresses 'the opposite of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech."
-"ma"	"country; land belonging to or claimed by a group of people"	"animal or organism"				
-"ma"					"around; outside of"	
-"Mata"			"Hungarian"			
-"mi"	"standard"	"standardize"				
-"mi-koti"	"year (CE)"					"year in common era"
-"mi-tajmi"	"UTC time"					
-"mipi"	"human"	"acting like a human"	"humanoid; human-like; like a human"			
-"mo"	"modifier"					
-"moko"					"behind"	
-"moti"	"a lot (of)"		"many; relatively large number; a lot; very (unreasonably so)"			"Similar to 'ki', but expresses relatively or unreasonably large amounts or numbers."
-"na"	"this/that; 3rd person pronoun"		"this/that"			
-"na"			"one"			
-"naj"	"not"	"not; (as standalone verb) replying 'no'"	"not; zero; null; negative (number)"	"not"	"not"	"Expresses 'not X'. As a number, it can be used for the digit zero, or can be used in a compound modifier's end to express negatives. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech."
-"napa"					"below; underneath"	
-"napi"	"day"					
-"ni"	"I; me; 1st person pronoun"		"like me; to my image;"			
-"ni-ki"	"we"					
-"ni-lo"	"I (singular)"					
-"no"	"noun"					
-"no"			"nine"			
-"noj"	"unit; 'the whole"	"unbroken thing'"				"It is the 'opposite' of 'ta'; 'ta' means a piece of fraction of a unit, while 'noy' is the whole, unbroken piece or unit"
-"nomi"	"number"					
-"pa"			"five"			
-"pala"	"plant"	"vegetate"				
-"paw"	"sound"		"audible; auditory; verbal"			
-"pi"					"of; belongs to; number of"	
-"pili"	"minute"					
-"pini"	"finish; end"	"finish; end"	"finished; ended; over"			
-"po"			"four"			
-"po"					"besides; on the side of; in close proximity to"	
-"Pokasi"			"Bulgarian"			
-"sa"		"is; to be;"				
-"si"	"system"		"according to the system; systematic; systematically"			
-"si"			"six"			
-"siko"	"seconds"					
-"sipi"					"in front of"	
-"siw"			"sever"			
-"siw"					"above; on top of"	
-"so"	"every-;every one of"	"every possible way"	"every-;every one of"	"every-;every one of"	"every-;every one of"	"Expresses 'every one of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech."
-"sona"	"knowledge; act of knowing"	"know"	"known; familiar"			
-"ta"	"fraction; a piece of; 0.1"	"to fraction; to disassamble; to split"	"fractioned; broken; split up; cut up; disassambled"			"The 0.1 meaning is effectively the same as 'numbers behind the decimal point'."
-"ta"				"for; because; so; thus"	"for; to"	"Introduces a consequence or rationale. It is also used for asking ""why"", when used as a preposition followed by ""kiwno""."
-"taj"				"or (exclusive)"		
-"tajko"				"or (inclusive); and/or"		
-"tajkotaj"				"or (inclusive"	"only in multiple choice questions)"	
-"tajmi"	"time"					
-"tajtaj"				"or (exclusive"	"only in multiple choice questions)"	
-"talo"					"into; go into; move into"	
-"tama"					"from; came out of; originates from"	
-"tana"			"big"			
-"tanalosa"				"more or equal; better or the same; greater or equal to"		
-"tanasa"				"more than; better than; greater than"		
-"tati"	"date"					
-"tatitajmi"	"datetime (date and time)"					
-"ti"	"you; 2nd person pronoun"					
-"ti"			"three"			
-"ti"				"but; regardless of previous statement; although; even though"		
-"ti-ki"	"you (plural)"					
-"ti-lo"	"you (singular); thou"					
-"tij"			"eight"			
-"tili"	"tree"					
-"tina"	"creation"	"create; make from scratch"	"created; artificial"			
-"tinilo"			"same; unchanged; equal"			
-"tinilosa"				"like; similar to; equal to"		
-"to"	"verb"					
-"to"				"that"		"It makes the following sentence to become the previous sentence's object after certain verbs (such as ""to see"" or ""to think"") or verbs that would be auxiliary verbs in English (such as ""can"" or ""want"")."
-"to"			"two"			
+Word	Noun	Verb	Modifier	Conjunction	Preposition	Note
+ka	any-	using any method	any-	any-	any-	Expresses 'any of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
+ki	collection (of); group (of)	multiply; gaining numbers; 'making plural'	plural; more than one; very			
+kili					through; across	
+kiti			small			
+kitilosa				less or equal; worse or the same; fewer or equal to		
+kitisa				less than; worse than; fewer than		
+kiw	(answer to a kiw- question)	lose; misplace	missing; lost;			Used as a noun only when you answer kiw- (or wh-) questions.
+kiwko				(asking which conjunction)		
+kiwmo			which? what kind of? how?			
+kiwno	who? what?					
+kiwpi					(asking which preposition)	
+kiwti	enjoyment; fun; (non-sexual) pleasure	like; enjoy; pleases	pleasing; fun			
+kiwto		did what?				
+ko	communication	communicate; transferring thoughts and information				
+ko	conjunction					
+ko				and		
+ko-si			language; system of communication			
+kona	month					
+Kosapisota			B. ZoltÃ¡n Gorza			
+koti	year					year (used only as a unit of time and not for expressing which year it is or something was)
+la	of this; 'that thing you are referring to'					Used to refer back to previous object of topic. In many cases interchangeable with 'yo'.
+lata				by; via; was possible because		
+li	thing; something; one; blank noun					Used similarily to English 'one' after adjectives. Also used when there would not be any nouns in the sentence (e.g. 'li nay' -- no; 'li lo' -- yes)
+lini				yet; despite the evidence/assumption/presumption		
+linito	the future		future; to become			
+linito-koti	year (ACE)					year after common era (I donâ€™t have a definition when that would begin either)
+lisa	writing	text	write	written		
+lisi		search; seek; look for	searched for; looked for; wanted			
+liw	wish; object of (non-sexual) desire	want; wish for	wanted; wished; desired			
+Liwlopa			Europe			
+lo	only; nothing else but	only; nothing else but; (as standalone verb) replying 'yes'	only; nothing else but; one (number)	only; nothing else but	only; nothing else but	Expresses 'only X', implying that no one/nothing else is true besides X. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
+lo					in; within; at the time of	
+lola	hour					
+low	the past		previous	previously	in the past	
+low-koti	year (BCE)					year before common era
+ma	anti-; the opposite of	anti-; the opposite of	anti-; the opposite of;	anti-; the opposite of	anti-; the opposite of	Expresses 'the opposite of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
+ma	country; land belonging to or claimed by a group of people	animal or organism				
+ma					around; outside of	
+Mata			Hungarian			
+mi	standard	standardize				
+mi-koti	year (CE)					year in common era
+mi-tajmi	UTC time					
+mipi	human; people; person	acting like a human	humanoid; human-like; like a human			
+mo	modifier					
+moko					behind	
+moti	a lot (of)		many; relatively large number; a lot; very (unreasonably so)			Similar to 'ki', but expresses relatively or unreasonably large amounts or numbers.
+na	this/that; 3rd person pronoun		this/that			
+na			one			
+naj	not	not; (as standalone verb) replying 'no'	not; zero; null; negative (number)	not	not	Expresses 'not X'. As a number, it can be used for the digit zero, or can be used in a compound modifier's end to express negatives. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
+napa					below; underneath	
+napi	day					
+ni	I; me; 1st person pronoun		like me; to my image;			
+ni-ki	we					
+ni-lo	I (singular)					
+no	noun					
+no			nine			
+noj	unit; 'the whole	unbroken thing'				It is the 'opposite' of 'ta'; 'ta' means a piece of fraction of a unit, while 'noy' is the whole, unbroken piece or unit
+nomi	number					
+pa			five			
+pala	plant	vegetate				
+paw	sound		audible; auditory; verbal			
+pi					of; belongs to; number of	
+pili	minute					
+pini	finish; end	finish; end	finished; ended; over			
+po			four			
+po					besides; on the side of; in close proximity to	
+Pokasi			Bulgarian			
+sa		is; to be;				
+si	system		according to the system; systematic; systematically			
+si			six			
+siko	seconds					
+sipi					in front of	
+siw			sever			
+siw					above; on top of	
+so	every-;every one of	every possible way	every-;every one of	every-;every one of	every-;every one of	Expresses 'every one of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
+sona	knowledge; act of knowing	know	known; familiar			
+ta	fraction; a piece of; 0.1	to fraction; to disassamble; to split	fractioned; broken; split up; cut up; disassambled			The 0.1 meaning is effectively the same as 'numbers behind the decimal point'.
+ta				for; because; so; thus	for; to	"Introduces a consequence or rationale. It is also used for asking ""why"", when used as a preposition followed by ""kiwno""."
+taj				or (exclusive)		
+tajko				or (inclusive); and/or		
+tajkotaj				or (inclusive	only in multiple choice questions)	
+tajmi	time					
+tajtaj				or (exclusive	only in multiple choice questions)	
+talo					into; go into; move into	
+tama					from; came out of; originates from	
+tana			big			
+tanalosa				more or equal; better or the same; greater or equal to		
+tanasa				more than; better than; greater than		
+tati	date					
+tatitajmi	datetime (date and time)					
+ti	you; 2nd person pronoun					
+ti			three			
+ti				but; regardless of previous statement; although; even though		
+ti-ki	you (plural)					
+ti-lo	you (singular); thou					
+tij			eight			
+tili	tree					
+tina	creation	create; make from scratch	created; artificial			
+tinilo			same; unchanged; equal			
+tinilosa				like; similar to; equal to		
+to	verb					
+to				that; (between verbs) connecting “auxiliary and main verb”		"It makes the following sentence to become the previous sentence's object after certain verbs (such as ""to see"" or ""to think"") or verbs that would be auxiliary verbs in English (such as ""can"" or ""want"")."
+to			two			
+			literal			
+			figurative			
+toki		greet; say ‘goodbye’				
+niw	name; identifier					
+			unique			
+	other; the other one		other			
