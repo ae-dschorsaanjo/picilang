@@ -2,13 +2,13 @@
 
  [![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png)](http://www.wtfpl.net/)
 
-_Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimalist constructed language designed to be easy to learn and use, although it does not have any restrictions on number of words; the goal is to be easy to use even for beginners with the help of a dictionary (that I plan to create).
+_Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimalist constructed language designed to be easy to learn and use, although it does not have any restrictions on number of words; the goal is to be easy to use even for beginners with the help of a dictionary.
 
-## Plans for website <a id="plans" href="#plans">&#5130;</a><a></a>
+This project is still work in progress, however the general grammar is already done and what is written will probably not change (in content). The dictionary is in very early stages and will be expanding constantly as the language sees more and more use.
 
-- hosted on github
-- based on this markdown
-- interactive dictionary
+## Work in progress <a id="plans" href="#plans">&#5130;</a><a></a>
+
+- expand vocabulary
 - easy-to-print version (doc + dictionary)
 
 ## Features <a id="features" href="#features">&#5130;</a><a></a>
@@ -29,7 +29,7 @@ _Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimali
 
 <div class="hide">
 
-## License
+## License <a id="whereto" href="#whereto">&#5130;</a><a></a>
 
 Copyright © 2021 ae-dschorsaanjo (b.zoltan.gorza@gmail.com)
 

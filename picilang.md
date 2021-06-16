@@ -4,7 +4,7 @@ If you are on the website and not the raw markdown file (or a file generated fro
 
 ---
 
-The grammar is simple and there are (almost) no exceptions\*.
+The grammar is simple and there are no exceptions\*.
 
 \*: with the only exceptions from the "no exception" rule being the way numbers are formed.
 
@@ -27,6 +27,7 @@ The grammar is simple and there are (almost) no exceptions\*.
 - [Names](#nimi)
   - [Transliterating names](#tl)
 - [Examples](#ex)
+- [Unnecessary details](#ud)
 
 ## Alphabet and pronunciation <a id="abc" href="#abc">&#5130;</a> <a href="#top">&#5123;</a>
 
@@ -97,10 +98,12 @@ For certain questions (such as "why") a combination of a preposition or noun, an
 Answers can be formed multiple ways, depending on what kind of question was used. The possible formats are the following:
 
 - "Yes" and "no"
-  - using the words `lo` and `naj` either as verbs (meaning "yes" or "replying yes", and "no" or "replying no" respectively), usually with the subject `li` (used as a general "placeholder" noun), `la` (this noun explicitly refers back to the question's subject or object, depending on context), `ni`, `ti` or `na` (these are the 1st, 2nd and 3rd person pronouns respectively)
+  - using the words `lo`, `naj` or `so` as standalone verbs (meaning "yes" or "replying yes", "no" or "replying no", and "maybe" or "replying maybe" respectively), usually with the subject `li` (used as a general "placeholder" noun), `la` (this noun explicitly refers back to the question's subject or object, depending on context), `ni`, `ti` or `na` (these are the 1st, 2nd and 3rd person pronouns respectively)
   - using the word `naj` as a modifier before the question's object in a noun phrase, followed by `sa` (meaning "not object")
   - using the word `naj` as a modifier before the question's subject, followed by the question's verb (meaning "no")
-  - repeating the question's subject and object
+    - Using `lo` and `so` this way will not result in a straight "yes" or "maybe" answer! In this context, they will use their regular meanings.
+  - repeating the question's subject and verb, optionally followed by the object with or without modifiers to say "yes".
+    - `naj` can be placed anywhere within the sentence to make it a "no" answer.
 - kiw- answers follow the format _kiw sa X_, where X is the whole questioned phrase. All answers are considered nouns for the purpose of simplicity
   - In case of `kiwno`, the object is simply a noun (e.g. _kiw sa li_).
   - ~ `kiwto`, the object is a verb.
@@ -108,6 +111,8 @@ Answers can be formed multiple ways, depending on what kind of question was used
   - ~ `kiwko`, the object is the questioned conjunction surrounded by both phrases (with or without all of their modifiers, e.g. _kiw sa ni ko ti_ and _kiw sa mipi li taj na_).
   - ~ `kiwpi`, there is no object, but there is a full prepositional phrase at the end of the sentence (e.g. _kiw sa sipi ma_)
 - choice questions are answered by repeating the choice (or choices separated by `ko`), or using `naj la`, `naj-la` (meaning "none of these"), `so la`, `so-la` (meaning "all of these") or `ka la`, `ka-la` (meaning "any of these") followed by `sa`, or saying `ni liw X` (meaning "I want X"), `la sa X`, `na sa X` (meaning "it is" or "they are") or repeating the statement with X only, where X is the choice or choices.
+
+The phrase "question's subject" refers to the person or thing, might not literally be the same word; for example, when the question's subject is "you", the answer's subject will be "I".
 
 #### Examples
 
@@ -174,7 +179,8 @@ To use precise numbers, you can use the words from 0 to 9 and simply read out th
 | tij  | eight  |
 | no   | nine   |
 
-Negatives are formed by forming a compound modifier ending in `naj` (effectively adding a 0 to the highest decimal place). Negatives can be used on both units and fractions. In both cases they effectively move the number towards the left on the number line.
+_Negatives_ are formed by forming a compound modifier ending in `naj` (effectively adding a 0 to the highest decimal place). Negatives can be used on both units and fractions. In both cases they effectively move the number towards the left on the number line.  
+Similar to how negative numbers are formed, `ka` can be used to say _absolute values_, where the number can be either positive or negative. This feature is practically useless in real life.
 
 You can also express fractions (meaning literal fractions, "one third" and alike) by using long number expressions (whose value will be the numerator) and a simple integer as a modifier on the noun (that will be the denominator). Only fractions that has an integer denominator can be said this way, but there is no such restriction for the numerator.
 
@@ -186,6 +192,7 @@ You can also express fractions (meaning literal fractions, "one third" and alike
 - **69.96**: _nosi noj ko sino ta_
 - **1995**: _panonona_
 - **1/4**: _na noj pi po NO_ (one quarter NOUN)
+- **|914| or abs(914)**: _ponano-ka_
 
 ## Date and time <a id="dt" href="#dt">&#5130;</a> <a href="#top">&#5123;</a>
 
@@ -253,3 +260,91 @@ Examples:
 ## Examples <a id="ex" href="#ex">&#5130;</a> <a href="#top">&#5123;</a>
 
 Here you can find more and longer examples with further explanations in some cases.
+
+## Unnecessary detail <a id="ud" href="#ud">&#5130;</a> <a href="#top">&#5123;</a>
+
+The followings are not required for everyday usage or to understand the language, but offer insights and allow me to write down unnecessary details and/or irrelevant anecdotes.  
+Because of the nature of these entries, many of them are written using a more regular language.  
+Also, if you made it this far, I will presume that you are familiar with the general grammar and the dictionary, so translations might not be always provided.
+
+This section has its own table of content to keep the main part of this doc cleaner and more easily accessible.
+
+### Table of Contents <a id="toc2" href="#toc2">&#5130;</a> <a href="#top">&#5123;</a>
+
+- [ko-si and the origin of the language](#ko-si)
+- [Yes, no, maybe?](#yesnomaybe)
+- [Digits in reverse order](#digits)
+
+### ko-si and the origin of this language <a id="ko-si" href="#ko-si">&#5130;</a> <a href="#top">&#5123;</a>
+
+`ko-si` means "language" and so much more. Picilang's native name is `kiti paw ko-si`, which means "small language". But if `ko-si` means "language", then why is there two more words in `kiti paw ko-si`?
+
+`ko-si` is a compound word made out of `si` (system) and `ko` (communication), hence the meaning "communication system". A language is a system of communication alright, and it can be written only or verbal only without a writing system. `paw` is defined as "auditory; audible; verbal", hence `paw ko-si` means "verbal communication system", i.e. a spoken language.  
+What is or is not a language is a question for philosophers and linguists, and I am neither of those. `kiti paw ko-si` could have been easily called `kiti ko-si`, had I not intended to create another language only days prior beginning work on this one, that would had been a non-verbal language.  
+Calling it `kiti paw ko-si` has a promise to it; this is a language intended to be used by humans or rather, it is possible to be used for verbal communication. Or something like that. I was very tired when I wrote my initial draft and I haven't thought about the later implications of the name, only that `ko-si` does not exclusively mean "language", so I created the `aw` modifier to specify the meaning. As you might have noticed, `aw` is not `paw`; it was about 10 minutes before I finalized the syllable structure and changed it to the latter.
+
+When I came up with the native name of the language, it already had a name: Picilang /pi.t͡si.läŋɡ/. This name is a combination of the Hungarian word "pici" (meaning "small") and "lang", which is the shortening of "language". It was before the alphabet was finalized or even existed in any shape or form, only the very general concept existed for it, which was _create a simple language that is able to express things more specifically than toki pona and can be easily understood knowing only a handful of rules and using a dictionary_. This lead me to an idea of having only 4 parts of speech, SVO word order, having no cases, no suffixes and no inflections, making it a highly analytic language (the other main key features are detailed on the Home page or in the README---depending on where you read this).  
+It quickly became apparent that I will not have a comfortably small vocabulary, thus I decided to create an app written in Javascript to have easy access to the dictionary that is able to search in it and be usable on the go. This website was a natural progression from there and I am quite proud of the result; it's clean, easy to read and easy to use, while not being overly heavy on resources, even though my code is far from perfect or optimal for that matter.  
+At the end of the day, it works and makes me happy---and isn't this what matter most?
+
+PS: I have almost forgotten one important thing; `kiti paw ko-si` is easy to remember as "kitty paw cozy". This was not intentional, `si` comes from "system", `ko` is from "communication" and `kiti` is from `kicsi`, another Hungarian word for "small". `aw` was supposed to be from `auditory`, but since that is not valid, I arbitrarily threw a `p` to it and only then realized that it looks like `kitty paw`. I like cats, so it remained, even though I'm not 100% pleased with how that 'p' sounds in this phrase.
+
+### Yes, no, maybe? <a id="yesnomaybe" href="#yesnomaybe">&#5130;</a> <a href="#top">&#5123;</a>
+
+I would like to be the first to say that yes, the way you answer questions is possibly (probably) overcomplicated, but let me offer you another way to look at it: you can choose how to answer based on your preference. Moreover, they have slightly different meaning or connotations. Here is a table for all\* the available combinations, their meanings and their connotations (as I interpret them; `~` means that this is the same as the one above) in the same order as they are described under [interrogative sentences](#is) answering the question _ti kiwti na kiti ko-si?_ (do you like this small language?):
+
+| Phrase                     | (Semi-literal) meaning                 | Connotation                                                                                                                                                                                  |
+|----------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| li lo                      | It's a yes.                            | Possibly dismissive, grammatically correct, but you might not understand or comprehend the question well enough and don't know which noun should be used.                                    |
+| li naj                     | It's a no.                             | ~                                                                                                                                                                                            |
+| li so                      | It's a maybe. It's an either.          | ~                                                                                                                                                                                            |
+| la lo                      | It's a yes. X say(s) "yes"             | Directly refers back to question's subject or object, regardless of whether it's a person or an object.                                                                                      |
+| la naj                     | It's a no. X say(s) "no"               | ~                                                                                                                                                                                            |
+| la so                      | It's a maybe. X say(s) "maybe/either". | ~                                                                                                                                                                                            |
+| ni lo                      | I reply "yes".                         | Can be used generally, not only when the question begins with "do you..." Gives a bit of personal flavor.                                                                                    |
+| ni naj                     | I reply "no".                          | ~                                                                                                                                                                                            |
+| ni so                      | I reply "maybe".                       | ~                                                                                                                                                                                            |
+| ti lo                      | You reply "yes".                       | ~                                                                                                                                                                                            |
+| ti naj                     | You reply "no".                        | ~                                                                                                                                                                                            |
+| ti so                      | You reply "maybe".                     | ~                                                                                                                                                                                            |
+| na lo                      | X replies "yes".                       | ~                                                                                                                                                                                            |
+| na naj                     | X replies "no".                        | ~                                                                                                                                                                                            |
+| na so                      | X replies "maybe".                     | ~                                                                                                                                                                                            |
+| lo na kiti ko-si sa        | Only that small language is.           | Not a straight up "yes"---it can work, but eliminates all other possibilities (e.g. when something else might also be true).                                                                 |
+| lo la            sa        | Only that is. Only I am.               | ~, "la" can be either question's subject or object (depending on context).                                                                                                                   |
+| naj na ko-si     sa        | Not that language.                     | Works as a general "no", can be considered as more precise or "official".                                                                                                                    |
+| naj la           sa        | Not that.                              | ~,  "la" can be either question's subject or object (depending on context). When "la" is a subject, then it might be considered defensive.                                                   |
+| so ko-si         sa        | Every language is.                     | It's neither an obvious "no" or a "yes", and arguably not an answer either, unless you deliberately want to say "every X is".                                                                |
+| so la            sa        | Every "that" is.                       | ~, "la" can be either question's subject or object (depending on context).                                                                                                                   |
+| lo ni sa                   | Only I am.                             | Works only under specific circumstances.                                                                                                                                                     |
+| naj ni sa                  | Not me.                                | It works, although one might interpret is as being defensive.                                                                                                                                |
+| so ni sa                   | Every me is.                           | Works only under specific circumstances and not with all nouns .                                                                                                                             |
+| ni kiwti                   | I like.                                | General "yes".                                                                                                                                                                               |
+| ni kiwti-naj               | I like not.                            | General "no".                                                                                                                                                                                |
+| naj ni kiwti               | Not I like.                            | No, with emphasizing that it's not me, who likes it.                                                                                                                                         |
+| ni-naj kiwti               | Not I like.                            | ~                                                                                                                                                                                            |
+| ni kiwti na kiti ko-si     | I like this small language.            | Very precise, possibly overly so.                                                                                                                                                            |
+| ni kiwti na-naj kiti ko-si | I don't like *this* language.          | Very precisely saying that I don't like this particular language.                                                                                                                            |
+| ni kiwti la                | I like it.                             | Simple, elegant, polite, yet short and on the point.                                                                                                                                         |
+| ni kiwti la-naj            | I like not it.                         | ~                                                                                                                                                                                            |
+| ni kiwti naj la            | I like not it.                         | ~                                                                                                                                                                                            |
+| ni kiwti-naj la            | I don't like it.                       | Can be the same as _ni kiwti-naj_ without the object, but this may include that you have a different opinion/feeling about it.                                                               |
+| la kiwti                   | (in this case I) like.                 | Same as with _ni_ in this case. Similar can be said about all of the above examples beginning from _ni kiwti_ (where the object wasn't replaced with "la"), only using "la" instead of "ni". |
+
+_X_ denotes "3rd person subject".  
+When the full object is repeated, the modifiers can be dropped.
+
+\*: after the standard ni/ti/na lo/naj/so answers, only the logical "ni" subject is used. In many other use cases (i.e. when the subject is in 3rd person), "la" is the easiest logical subject to use, although "la" is not limited to 3rd person. Some of the "no" answers from the last category are also missing due to not wanting to write about 10 "yes" and 20 "no" versions of it.
+
+### Digits in reverse order <a id="digits" href="#digits">&#5130;</a> <a href="#top">&#5123;</a>
+
+In contrast of the initial goal of creating a _simple_ language, there are some interesting oddities throughout, like the fact that in numbers, the order in which the digits are read is reversed, it's right-to-left. This is a result of a deliberate choice followed by an simple error that made the numbers better sounding. Let me explain.
+
+Before `so` and `ka` was created, only `naj`, `lo` and `ma` existed. It was already decided that `naj` (originating from English _nay_) is going to be the word for number 0 and `ma`'s definition seemingly fitted the need for a word to use for negative numbers. At this point I only had the very first outlines of how I wanted numbers to be expressed, the _general_ and _precise_ split have already happened and both sections had about 2 sentences each. I quickly noted that `ma` would be used for negatives, then wrote the _general numbers_ section; that would be used more often, after all. Then it was time to write the precise numbers, I have already <s>stolen</s> gotten inspired by English numbers, wrote the table for them, and began writing how to form negatives and read back the sentence, when I realized that I had made an error; I accidentally wrote `naj` instead of `ma`. Naturally, I quickly fixed it, read it again and... it didn't sound good. It was not bad or anything, I just didn't like it as much as with `naj`. After consulting the dictionary and the already written grammar (including reading the digits in reverse order that was still not finalized then), I have decided that `naj` could work and it actually reinforces the idea of reversing the digits; adding a 0 to the "end" of the number would change the magnitude, but adding a 0 to the highest decimal place would change nothing.  
+This is why the _lowest to highest decimal place_ order was finalized, but how did it even occur to use this system?
+
+When I was learning accounting on university (it was an obligatory introductory course), we were taught to write number right-to-left, so that the decimal places would match in each row; in other words, we were emulating using a monospaced font in handwriting (insert 10 minutes rant of having to do accounting on paper while I was on an IT program). This allowed to see orders of magnitude differences very easily and clarity is always welcomed, especially when it does not require too much effort. I wrote down the number from 0 to 6 when I decided to use this reverse order, all the numbers were one syllable, so order of magnitude difference would be obvious; then I continued writing down the numbers and 9 proved to be difficult. See, "nine" would transliterate to either "naj" or "na" naturally, both of which were already used. It took a total of 3 minutes of thinking to come up with `no`, based on how Cockney accent sound to a Hungarian. Admittedly, this is not a good reasoning for why it is `no`, but it couldn't had been `ki` or `li` (both based on Hungarian "kilenc").  
+_It's all nice and all, but still, why the reverse order? Numbers are already monosyllabic!_ Reading out digits in sequence is nothing usual, the problem is the opposite: it is too common. Even after elementary/primary school, you read out numbers digit-by-digit subconsciously, then you take the whole sequence and interpret it. This is so commonplace that I feel like it does not convey enough sense of magnitude. Just say "one zero zero zero zero"---does it feel like a "big" number compared to "one zero zero"? Try reversing the order, "zero zero zero zero one" feels bigger and longer, it is not just a meaningless repetition of "zero", but it's a promise, that at the end, there is going to be a non-zero value, the question is, when? Now compare this to "zero zero one", which now feels like a teeny-tiny number compared to 10000, which it arguably is.  
+Full disclosure, I am not a psychologist, nor a psychiatrist, so I don't know the exact details how the brain processes numbers. I might be completely wrong, it might not be the same for you, but it makes sense for _me_ and, at the end of the day, that's what matters for _me_ when _I_ create a language.
+
+**tl;dr** It's easier to spot different orders of magnitudes.
