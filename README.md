@@ -1,6 +1,6 @@
 # Picilang
 
- [![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png)](http://www.wtfpl.net/)
+ [<img src="img/WTFPL_badge.svg" class="badge">](http://www.wtfpl.net/)
 
 _Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimalist constructed language designed to be easy to learn and use, although it does not have any restrictions on number of words; the goal is to be easy to use even for beginners with the help of a dictionary.
 
@@ -25,7 +25,7 @@ This project is still work in progress, however the general grammar is already d
 
 - Read the documentation <a id="doclink" href="picilang.md">here</a>,
 - Check out the raw dictionary <a id="dictlink" href="dictionary.csv">here</a>,
-- Or you can check out the website once it's done should be <a href="https://gobzo.hu/picilang">here</a>.
+- Or you can check out the website once it's done should be <a href="https://picilang.org">here</a>.
 
 <div class="hide">
 
