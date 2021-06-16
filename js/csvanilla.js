@@ -80,12 +80,9 @@ class CSV {
                 (mode == 0 && l.line_note_str.includes(term)))
                 results.push(l);
         }
-        console.log(results);
         results.sort((a, b) => {
-            console.log(a);
             return a.line[WORD].localeCompare(b.line[WORD], { sensitivity: "case", caseFirst: "lower" })
         });
-        console.log(results);
         return results;
     }
 }
