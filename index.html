@@ -102,12 +102,17 @@
         let params = new URLSearchParams(document.location.search.substring(1));
         let page = params.get(PAGE);
 
+        function scrollToTop() {
+            window.scroll({top: 0, left: 0, behavior: 'smooth'});
+        }
+
         function showHome() {
             home.style.display = "block";
             grammar.style.display = "none";
             dictionary.style.display = "none";
             params.delete(PAGE);
             window.history.replaceState({}, '', `${location.pathname}?${params}`);
+            scrollToTop();
         }
 
         function showGrammar(setparam = false) {
@@ -118,6 +123,7 @@
                 params.set(PAGE, "grammar");
                 window.history.replaceState({}, '', `${location.pathname}?${params}`);
             }
+            scrollToTop();
         }
 
         function showDictionary(setparam = false) {
@@ -128,6 +134,7 @@
                 params.set(PAGE, "dictionary");
                 window.history.replaceState({}, '', `${location.pathname}?${params}`);
             }
+            scrollToTop();
         }
 
         async function main() {
