@@ -9,6 +9,7 @@ This project is still work in progress, however the general grammar is already d
 ## Work in progress <a id="plans" href="#plans">&#5130;</a><a></a>
 
 - expand vocabulary
+- responsible design (finetune for phones)
 - easy-to-print version (doc + dictionary)
 
 ## Features <a id="features" href="#features">&#5130;</a><a></a>
@@ -25,7 +26,7 @@ This project is still work in progress, however the general grammar is already d
 
 - Read the documentation <a id="doclink" href="picilang.md">here</a>,
 - Check out the raw dictionary <a id="dictlink" href="dictionary.csv">here</a>,
-- Or you can check out the website once it's done should be <a href="https://picilang.org">here</a>.
+- Or you can check out the website <a href="https://picilang.org">here</a>.
 
 <div class="hide">
 
