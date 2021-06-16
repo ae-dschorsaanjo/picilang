@@ -1,9 +1,5 @@
 # Picilang
 
-If you are on the website and not the raw markdown file (or a file generated from it), then you can go ahead and use the [**Dictionary**](#dict) right away.
-
----
-
 The grammar is simple and there are no exceptions\*.
 
 \*: with the only exceptions from the "no exception" rule being the way numbers are formed.
