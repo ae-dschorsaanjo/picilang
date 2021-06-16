@@ -24,8 +24,9 @@ This project is still work in progress, however the general grammar is already d
 
 ## Where to find stuff <a id="whereto" href="#whereto">&#5130;</a><a></a>
 
-- Read the documentation <a id="doclink" href="picilang.md">here</a>,
-- Check out the raw dictionary <a id="dictlink" href="dictionary.csv">here</a>,
+- Read the documentation <a id="doclink">here</a>,
+- Check out the raw dictionary <a id="dictlink">here</a>,
+- The source code <a href="https://github.com/ae-dschorsaanjo/picilang">here</a>,
 - Or you can check out the website <a href="https://picilang.org">here</a>.
 
 <div class="hide">
