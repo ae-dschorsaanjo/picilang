@@ -48,10 +48,17 @@ class CSVLine {
      */
     constructor(line, delimiter) {
         this.delimiter = delimiter;
-        line = line.substr(1, line.length - 2).replaceAll('"\t', "\t").replaceAll('\t"', '\t').replaceAll('""', '"');
+        console.log(line);
+        if (line[0] == '"')
+            line = line.substr(1, line.length - 2)
+        line = line.replaceAll('"\t', "\t").replaceAll('\t"', '\t').replaceAll('""', '"');
         this.line_note_str = line;
         const s = this.line_note_str.split(this.delimiter);
-        this.line = s;
+        this.line = s.splice(0, NOTE);
+        if (s[0].length > 0)
+            this.line.push(s[0][0].toUpperCase() + s[0].substr(1));
+        else
+            this.line.push("");
         this.line_str = s.slice(0, 6).join(" ");
         this.line_noword_str = s.slice(1, 6).join(" ");
     }
@@ -113,8 +120,9 @@ export function buildResults(lines, bodyname) {
             if (l.line[i] == "") continue;
             d2 = document.createElement("div");
             d2.classList.add(POS_LABEL[i]);
-            if (i > WORD && i < NOTE)
+            if (i > WORD && i < NOTE) {
                 d2.innerHTML = `<span class="pos" title="${POS_TITLE[i]}">${POS_LABEL[i]}</span> ${l.line[i]}`;
+            }
             else {
                 d2.innerHTML = l.line[i];
             }
