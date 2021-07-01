@@ -9,7 +9,7 @@ This project is still work in progress, however the general grammar is already d
 ## Work in progress <a id="plans" href="#plans">&#5130;</a><a></a>
 
 - expand vocabulary
-- responsible design (finetune for phones)
+- responsive design (finetune for phones)
 - easy-to-print version (doc + dictionary)
 
 ## Features <a id="features" href="#features">&#5130;</a><a></a>
