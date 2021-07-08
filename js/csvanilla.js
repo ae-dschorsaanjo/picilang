@@ -48,7 +48,7 @@ class CSVLine {
      */
     constructor(line, delimiter) {
         this.delimiter = delimiter;
-        console.log(line);
+        // console.log(line);
         if (line[0] == '"')
             line = line.substr(1, line.length - 2)
         line = line.replaceAll('"\t', "\t").replaceAll('\t"', '\t').replaceAll('""', '"');
@@ -59,8 +59,9 @@ class CSVLine {
             this.line.push(s[0][0].toUpperCase() + s[0].substr(1));
         else
             this.line.push("");
-        this.line_str = s.slice(0, 6).join(" ");
-        this.line_noword_str = s.slice(1, 6).join(" ");
+        this.line_str = this.line.slice(0, 6).join(" ");
+        this.line_noword_str = this.line.slice(1, 6).join(" ");
+        // console.log(`${this.line_note_str}\n${this.line_str}\n${this.line_noword_str}`);
     }
 }
 
