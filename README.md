@@ -31,7 +31,7 @@ This project is still work in progress, however the general grammar is already d
 
 <div class="hide">
 
-## License <a id="whereto" href="#whereto">&#5130;</a><a></a>
+## License <a id="license" href="#license">&#5130;</a><a></a>
 
 Copyright © 2021 ae-dschorsaanjo (b.zoltan.gorza@gmail.com)
 
