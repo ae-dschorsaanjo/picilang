@@ -1,4 +1,4 @@
-# Picilang
+# Picilang <span id="printtext" class="hide yesprint">(printable version)</span>
 
 The grammar is simple and there are no exceptions\*.
 
@@ -149,7 +149,7 @@ Numbers should precede all the other modifiers in noun phrases.
 
 These are always used as modifiers and can only be used in noun phrases.
 
-The general system consists of 4 words that are `naj`, `lo`, `ki` and `muti` meaning "zero", "one", "many" and "unreasonable amount/number".
+The general system consists of 4 words that are `naj`, `lo`, `ki` and `moti` meaning "zero", "one", "many" and "unreasonable amount/number".
 
 To express general numbers as nouns, you can always use `noj` (meaning "unit") or `li` (meaning "thing"), or `la`, if you refer back to a previously mentioned thing.
 
@@ -268,6 +268,7 @@ This section has its own table of content to keep the main part of this doc clea
 ### Table of Contents <a id="toc2" href="#toc2">&#5130;</a> <a href="#top">&#5123;</a>
 
 - [ko-si and the origin of the language](#ko-si)
+- [Fictional origin](#fiction)
 - [Yes, no, maybe?](#yesnomaybe)
 - [Digits in reverse order](#digits)
 
@@ -280,10 +281,21 @@ What is or is not a language is a question for philosophers and linguists, and I
 Calling it `kiti paw ko-si` has a promise to it; this is a language intended to be used by humans or rather, it is possible to be used for verbal communication. Or something like that. I was very tired when I wrote my initial draft and I haven't thought about the later implications of the name, only that `ko-si` does not exclusively mean "language", so I created the `aw` modifier to specify the meaning. As you might have noticed, `aw` is not `paw`; it was about 10 minutes before I finalized the syllable structure and changed it to the latter.
 
 When I came up with the native name of the language, it already had a name: Picilang /pi.t͡si.läŋɡ/. This name is a combination of the Hungarian word "pici" (meaning "small") and "lang", which is the shortening of "language". It was before the alphabet was finalized or even existed in any shape or form, only the very general concept existed for it, which was _create a simple language that is able to express things more specifically than toki pona and can be easily understood knowing only a handful of rules and using a dictionary_. This lead me to an idea of having only 4 parts of speech, SVO word order, having no cases, no suffixes and no inflections, making it a highly analytic language (the other main key features are detailed on the Home page or in the README---depending on where you read this).  
-It quickly became apparent that I will not have a comfortably small vocabulary, thus I decided to create an app written in Javascript to have easy access to the dictionary that is able to search in it and be usable on the go. This website was a natural progression from there and I am quite proud of the result; it's clean, easy to read and easy to use, while not being overly heavy on resources, even though my code is far from perfect or optimal for that matter.  
+It quickly became apparent that I will not have a comfortably small vocabulary, thus I decided to create an app written in JavaScript to have easy access to the dictionary that is able to search in it and be usable on the go. This website was a natural progression from there and I am quite proud of the result; it's clean, easy to read and easy to use, while not being overly heavy on resources, even though my code is far from perfect or optimal for that matter.  
 At the end of the day, it works and makes me happy---and isn't this what matter most?
 
 PS: I have almost forgotten one important thing; `kiti paw ko-si` is easy to remember as "kitty paw cozy". This was not intentional, `si` comes from "system", `ko` is from "communication" and `kiti` is from `kicsi`, another Hungarian word for "small". `aw` was supposed to be from `auditory`, but since that is not valid, I arbitrarily threw a `p` to it and only then realized that it looks like `kitty paw`. I like cats, so it remained, even though I'm not 100% pleased with how that 'p' sounds in this phrase.
+
+---
+
+### Fictional origin <a id="fiction" href="#fiction">&#5130;</a> <a href="#top">&#5123;</a>
+
+_kiti paw ko-si... Picilang... na ko-si... Pitila..._ A language that both exist, and nobody knows or understands. During my research I have come across it multiple times at different places, yet I cannot find a connection between them. It had been seen on the walls of ancient ruins, referenced in holy books and used in video games; this language did and do appear sporadically over thousands of years, possibly predating humanity as we know it.  
+Its true origin, however, is unknown; it is, without a doubt, a product of intelligent design, but whose intelligence is responsible to create something this simple yet so precise?
+
+Yesterday I shared my findings with a fellow researcher, who specializes in linguistic anomalies. A wise man of great disregard by the name of Paz Imaginaria, she told me that she had not only saw it before, but had been studying it for a while herself and collected every known and not yet confirmed sightings and references of it. According to her, there are written samples using not less than 73 different writing systems and those are only the ones we are able decipher; however, strange series of symbols had also been found in northern Africa, predating the Mesopotamian cuneiform by at least 1000 years that are theorized to be some sort of logographic script. By the nature of the script, it is currently impossible to determine in which language this is written, if any. All we know about it is that it has been carved into hard rock using a sharp, presumably metal instrument, given that we can see marks of the point bending and bluntening before it was either replaced or sharpened. This writing consists of 148 symbols, only 5 of them are repeating, the other 133 symbols are unique. 
+
+**TODO:** finish
 
 ### Yes, no, maybe? <a id="yesnomaybe" href="#yesnomaybe">&#5130;</a> <a href="#top">&#5123;</a>
 
