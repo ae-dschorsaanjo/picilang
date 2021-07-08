@@ -8,7 +8,7 @@
     --main-color: #50b98c;
     --sel-color: #99d6bc;
     --mono-color: #d8e9e2;
-    --min-highlight: #dee2de;
+    --min-highlight: #ecefec;
     --header-height: 2.5rem;
     --header-padding: 1ch;
     --body-padding: 1rem;
@@ -190,6 +190,10 @@ img {
     margin-left: 2em;
 }
 
+#printtext {
+    font-size: 80%;
+}
+
 #md table {
     min-width: 20vw;
     margin-left: 2em;
@@ -301,4 +305,78 @@ img {
     margin-top: 0.7em;
     margin-left: 1em;
     font-style: italic;
+}
+
+@media print {
+    :root {
+        --min-highlight: white;
+        --mono-color: white;
+    }
+    html {
+        background-color: white !important;
+        color: black !important;
+    }
+    header {
+        display: none;
+    }
+    .page, h1 {
+        margin-top: 0;
+    }
+    .page:not(:first-child) {
+        page-break-before: always;
+    }
+    .noprint {
+        display: none;
+    }
+    .yesprint {
+        display: block;
+    }
+    h1, h2, h3 {
+        margin: initial;
+        width: 90%;
+        padding-top: 0;
+    }
+    h2 a, h3 a, h4 a, h5 a, h6 a {
+        display: none;
+    }
+    h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+    }
+    code {
+        padding: 0 0.3ch;
+    }
+    a {
+        text-decoration: underline;
+    }
+    .entry {
+        page-break-inside: avoid;
+    }
+    .license {
+        text-align: left;
+        margin: 0;
+    }
+    #printtext {
+        display: inline;
+    }
+    #dictstatus {
+        display: none;
+    }
+    #csv-out-body .entry:not(:first-of-type) {
+        border-top: 1px solid black;
+    }
+    #csv-out-body .entry:nth-of-type(2n) {
+        box-shadow: none;
+    }
+    #csv-out-body .entry:nth-of-type(2n+1) {
+        margin-bottom: inherit;
+        margin-top: inherit;
+    }
+    #csv-out-body .entry {
+        background-color: white;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    #dict-head {
+        display: none;
+    }
 }
