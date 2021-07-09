@@ -47,14 +47,16 @@ mipi	human	acting like a human	humanoid; human-like; like a human
 mo	modifier					
 moko					behind	
 moti	a lot (of)		many; relatively large number; a lot; very (unreasonably so)			Similar to 'ki', but expresses relatively or unreasonably large amounts or numbers.
-na	this/that; 3rd person pronoun		this/that			
+na	this/that; 3rd person pronoun		this/that; his/her/its/this's/that's; his/hers/its/this's/that's way; like him/her/it/this/that			Can be either singular or plural. The modifier definition is written like that in order to reinforce the idea that this word is also the 3rd person pronoun.
 na			one			
+na-ki	they		their; theirs; their way; like them			
+na-lo	he; she; it		his/her/its; his/hers/its; his/her/its way; like him/her/it			
 naj	not	not; (as standalone verb) replying 'no'	not; zero; null; negative (number)	not	not	Expresses 'not X'. As a number, it can be used for the digit zero, or can be used in a compound modifier's end to express negatives. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
 napa					below; underneath	
 napi	day					
-ni	I; me; 1st person pronoun		like me; to my image;			
-ni-ki	we					
-ni-lo	I (singular)					
+ni	I; me; 1st person pronoun		my; our; mine; ours; my way; our way; like me; like us			
+ni-ki	we		our; ours; our way; like us			Can be either singular or plural.
+ni-lo	I (singular)		my; mine; my way; like me			
 no	noun					
 no			nine			
 noj	unit; 'the whole	unbroken thing'				It is the 'opposite' of 'ta'; 'ta' means a piece of fraction of a unit, while 'noy' is the whole, unbroken piece or unit
@@ -93,11 +95,11 @@ tanalosa				more or equal; better or the same; greater or equal to
 tanasa				more than; better than; greater than		
 tati	date					
 tatitajmi	datetime (date and time)					
-ti	you; 2nd person pronoun					
+ti	you; 2nd person pronoun		your; yours; your way; like you			Can be either singular or plural.
 ti			three			
 ti				but; regardless of previous statement; although; even though		
-ti-ki	you (plural)					
-ti-lo	you (singular); thou					
+ti-ki	you (plural)		your; yours; your way; like you			
+ti-lo	you (singular); thou		thy; thine; thy way; like thee			
 tij			eight			
 tili	tree					
 tina	creation	create; make from scratch	created; artificial			
