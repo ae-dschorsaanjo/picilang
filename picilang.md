@@ -35,9 +35,9 @@ The alphabet is `k, l, m, n, p, s, t, a, i, o, w, j`.
 
 The sound of each letter is the same as their sound in IPA.
 
-Nothing is capitalized by default, although the first word of a sentence can be capitalized, if it would take effort to make it not so (e.g. when typing on phone).
+Nothing is capitalized by default, although the first word of a sentence can be capitalized, if it would take effort to make it not to do so (e.g. when typing on phone).
 
-Transliterated/foreign/loanwords are always capitalized.
+Foreign words and loanwords are always capitalized and transliterated.
 
 The stress is on either the first syllable or, in case of compound words, on the first syllable of the root word which you want to emphasize. To visually represent stress or emphasis, you can use an acute accent on the stressed syllable's vowel  (`a => á, i => í, o => ó`).
 
@@ -47,7 +47,9 @@ Words are made out of CVs (consonant, vowel, optional semivowel) consonants, whe
 
 ### Compound words <a id="cw" href="#cw">&#5130;</a> <a href="#top">&#5123;</a>
 
-Compound words are hyphenated and for all intents and purposes are a single word. Two or more words of the same part of speech can be combined into compound words, but you cannot combine words of different part of speech! An example for a compound word is _ko-si_, which means "communication system" or "system of communication".
+Compound words are hyphenated and for all intents and purposes are a single word. Two or more words of the same part of speech can be combined into compound words, but you cannot combine words of different part of speech! However, you compound words are like any other word, so even though the roots (or the specific meanings used) must be the same part of speech, the compound word itself can be another part of speech.  
+An example for a compound word is _ko-si_, which means "communication system" or "system of communication".  
+Another example would be _ni-ki_, which is the 1st person plural pronoun ("we") that as a modifier means "our", "ours" or "our way". Same could be said all about all the other pronoun (including the ones that are not compound words).
 
 The "main", "more significant" or "broader" root word should be the last one and "specifying" roots precede them, for example in _ko-si_, "si" means "system" and "ko" means "communication".  
 However, it is customary to place `naj`, `ma` and `lo` at the end of compound words, ta Kosapisota kiwti la.
@@ -57,6 +59,8 @@ However, it is customary to place `naj`, `ma` and `lo` at the end of compound wo
 Picilang has 5 parts of speech, _nouns, verbs, modifiers, conjunctions and prepositions_.
 
 Most of these work mostly like in English and many other languages, but _modifiers_ can be parts either noun or verb phrases, so there are no separate adjectives and adverbs.
+
+Foreign words can be any part of speech.
 
 ## Word order <a id="wo" href="#wo">&#5130;</a> <a href="#top">&#5123;</a>
 
@@ -184,7 +188,7 @@ You can also express fractions (meaning literal fractions, "one third" and alike
 
 - **14**: _pona_
 - **-42**: _poto-naj_
-- **-3.14**: _ti-naj noj ko pona-naj ta_ (-3 times 1 and -14 times 0.1) or _po-naj noj ko sitiy ta_ (-4 \* 1 + 86 \* 0.1)
+- **-3.14**: _ti-naj noj ko pona-naj ta_ (-3 times 1 and -14 times 0.1) or _po-naj noj ko sitij ta_ (-4 \* 1 + 86 \* 0.1)
 - **69.96**: _nosi noj ko sino ta_
 - **1995**: _panonona_
 - **1/4**: _na noj pi po NO_ (one quarter NOUN)
@@ -215,9 +219,11 @@ na noj ko pa ta pi napi
 _2 seconds and 587 milliseconds_  
 to noj ko siwtijpa ta pi siko
 
-## Names <a id="nimi" href="#nimi">&#5130;</a> <a href="#top">&#5123;</a>
+## Names and foreign words <a id="nimi" href="#nimi">&#5130;</a> <a href="#top">&#5123;</a>
 
-Names must be valid words according to previous rules. The name order follows the Eastern name order, meaning that the surname preceded the given name(s).
+All names and foreign words must be valid Picilang words according to previous rules, although capitalized.
+
+The name order follows the Eastern name order, meaning that the surname preceded the given name(s).
 
 ### Transliterating into Picilang <a id="tl" href="#tl">&#5130;</a> <a href="#top">&#5123;</a>
 
@@ -286,16 +292,24 @@ At the end of the day, it works and makes me happy---and isn't this what matter 
 
 PS: I have almost forgotten one important thing; `kiti paw ko-si` is easy to remember as "kitty paw cozy". This was not intentional, `si` comes from "system", `ko` is from "communication" and `kiti` is from `kicsi`, another Hungarian word for "small". `aw` was supposed to be from `auditory`, but since that is not valid, I arbitrarily threw a `p` to it and only then realized that it looks like `kitty paw`. I like cats, so it remained, even though I'm not 100% pleased with how that 'p' sounds in this phrase.
 
----
+### Fictional (a.k.a. _truer_) origin <a id="fiction" href="#fiction">&#5130;</a> <a href="#top">&#5123;</a>
 
-### Fictional origin <a id="fiction" href="#fiction">&#5130;</a> <a href="#top">&#5123;</a>
+_kiti paw ko-si... Picilang... na ko-si... Pitila..._ A language that both exists, and nobody knows or understands. During my research I have come across it multiple times at different places, yet I cannot find a connection between them. It had been seen on the walls of ancient ruins, referenced in holy books and used in video games; this language did and do appear sporadically over thousands of years, possibly predating humanity as we know it.  
+Its true origin, however, is unknown; it is, without a doubt, a product of intelligent design, but whose intelligence is responsible to create something this simple, yet so precise?
 
-_kiti paw ko-si... Picilang... na ko-si... Pitila..._ A language that both exist, and nobody knows or understands. During my research I have come across it multiple times at different places, yet I cannot find a connection between them. It had been seen on the walls of ancient ruins, referenced in holy books and used in video games; this language did and do appear sporadically over thousands of years, possibly predating humanity as we know it.  
-Its true origin, however, is unknown; it is, without a doubt, a product of intelligent design, but whose intelligence is responsible to create something this simple yet so precise?
+Yesterday I shared my findings with a fellow researcher, who specializes in linguistic anomalies. A wise man of great disregard by the name of _Paz Imaginaria_, she told me that she had not only saw it before, but had been studying it for a while herself and collected every known and not yet confirmed sightings and references of it. According to her, there are written samples using not less than 73 different writing systems and those are only the ones we are able decipher; however, strange series of symbols had also been found in northern Africa -- predating the Mesopotamian cuneiform by at least 5300 years and the earliest known proto-writings by more than 1000 years -- that are theorized to be some sort of logographic script. By the nature of the script, it is currently impossible to determine in which language this is written. All we know about it is that it had been carved into hard rock using a sharp, presumably metal instrument, given that we can see marks of the point bending and bluntening before it was either replaced or sharpened. This writing consists of a total of 148 symbols, only 5 of them are repeating, the other 133 symbols are unique.
 
-Yesterday I shared my findings with a fellow researcher, who specializes in linguistic anomalies. A wise man of great disregard by the name of Paz Imaginaria, she told me that she had not only saw it before, but had been studying it for a while herself and collected every known and not yet confirmed sightings and references of it. According to her, there are written samples using not less than 73 different writing systems and those are only the ones we are able decipher; however, strange series of symbols had also been found in northern Africa, predating the Mesopotamian cuneiform by at least 1000 years that are theorized to be some sort of logographic script. By the nature of the script, it is currently impossible to determine in which language this is written, if any. All we know about it is that it has been carved into hard rock using a sharp, presumably metal instrument, given that we can see marks of the point bending and bluntening before it was either replaced or sharpened. This writing consists of 148 symbols, only 5 of them are repeating, the other 133 symbols are unique. 
+<div class="center">
 
-**TODO:** finish
+[![symbols](img/symbols.png)](img/symbols.png)
+
+</div>
+
+Prior studies, which predate the discovery of _Pitila_, concluded that it contains agricultural instructions, mostly likely about how to grow crops and breed aurochs, although all of this is only speculation based on the appearances of individual symbols. The validity of these hypotheses would be questionable, did we know more. Alas, we do not. Regardless of how little we do know, philologists are adamant and refuse the possibility of it being "anything more than a sample of an early, currently unknown civilization's first attempt of preserving ideas in written form." Professor Imaginaria, _the greatest young talent on the fields of philology and linguistics_ as she used to be called contested this idea in a book titled "Everything We Know About The Northafc Script Is Wrong And Here's Why", in which she presented all the facts, leading hypotheses and their disproofs through 676 pages. As one can imagine, this did not please her colleges. In this book she presented some of her ideas based on findings of hers and other's, that many mistook as serious theories and attacked them accordingly, causing Imaginaria's sudden downfall from the academic Olympus.
+
+There is a real possibility that the both of us might be able to crack this mystery once and for all. Our initial meeting ended with agreeing upon a later date on which we begin to compile all known text and "normalize" the data, meaning transcribing them into a fitting writing system to make it easier to work with and mark all the _problematic_ samples, where we mark all the hardly legible and illegible text, substitute our own words that we might think would fit and try to account for errors on the original writer's part that may occur during copying, misspelling, etc. After we finish the initial groundwork, we plan to feed the data to an AI, that hopefully will find something we either cannot or could not without manually going through the then-completed corpus and cross-referencing everything. It is going to be a long and resource-intensive process that we cannot hope to finish in our life time. Alas, I am optimistic and I shall continue documenting our findings and hope for the best.
+
+At this point... 5 years... Watson found a correlation between... _They_ brought... Orion... Paz has been... Finnish rebels... was _Them_ all... days are counted... hiding... tomorrow... Day 511: Watson did it! The meaning suggest... If I don't make it... _They_... I... dead... all lost.
 
 ### Yes, no, maybe? <a id="yesnomaybe" href="#yesnomaybe">&#5130;</a> <a href="#top">&#5123;</a>
 
