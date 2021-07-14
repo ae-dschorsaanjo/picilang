@@ -232,9 +232,8 @@
 
                 if (window.location.hash) {
                     const h = window.location.hash.substring(1);
-                    if (e = document.getElementById(h)) {
-                        e.scrollIntoView();
-                    }
+                    const e = document.getElementById(h);
+                    e?.scrollIntoView();
                 }
             });
         }
