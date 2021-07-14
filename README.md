@@ -17,7 +17,7 @@ This project is still work in progress, however the general grammar is already d
 - SVO word order
 - head-final
 - compound words are hyphenated
-- small alphabet (a, i, o, w, j, k, l, m, n, p, s, t)
+- small alphabet (a, i, o, j, w, k, l, m, n, p, s, t)
 - CVs syllables (Consonant, Vowel, optional semi-vowel)
 - 5 parts of speech (Noun, Verb, Modifier, Conjunction, Preposition)
 - no verb tenses, moods or aspects
