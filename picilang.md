@@ -33,7 +33,7 @@ Semi-vowels are considered as their own group, they cannot be substitutes of con
 
 The alphabet is `k, l, m, n, p, s, t, a, i, o, w, j`.
 
-The sound of each letter is the same as their sound in IPA.
+The sound of each letter is preferably the same as their IPA counterpart, but variations allowed (as long as each phoneme are clear-enough).
 
 Nothing is capitalized by default, although the first word of a sentence can be capitalized, if it would take effort to make it not to do so (e.g. when typing on phone).
 
