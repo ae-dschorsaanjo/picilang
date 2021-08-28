@@ -47,11 +47,11 @@ Words are made out of CVs (consonant, vowel, optional semivowel) consonants, whe
 
 ### Compound words <a id="cw" href="#cw">&#5130;</a> <a href="#top">&#5123;</a>
 
-Compound words are hyphenated and for all intents and purposes are a single word. Two or more words of the same part of speech can be combined into compound words, but you cannot combine words of different part of speech! However, you compound words are like any other word, so even though the roots (or the specific meanings used) must be the same part of speech, the compound word itself can be another part of speech.  
+Compound words are hyphenated and for all intents and purposes are a single word. Two or more words of the same part of speech can be combined into compound words, but you cannot combine words of different part of speech! However, compound words are like any other word, so even though the roots (or the specific meanings used) must be the same part of speech, the compound word itself can be another part of speech (as a variant of the original meaning which retains the root words' part of speech).  
 An example for a compound word is _ko-si_, which means "communication system" or "system of communication".  
 Another example would be _ni-ki_, which is the 1st person plural pronoun ("we") that as a modifier means "our", "ours" or "our way". Same could be said all about all the other pronoun (including the ones that are not compound words).
 
-The "main", "more significant" or "broader" root word should be the last one and "specifying" roots precede them, for example in _ko-si_, "si" means "system" and "ko" means "communication".  
+The "main", "more significant" or "broader" root word should be the first one and "specifying" roots precede them.  
 However, it is customary to place `naj`, `ma` and `lo` at the end of compound words, ta Kosapisota kiwti la.
 
 ## Parts of speech <a id="pos" href="#pos">&#5130;</a> <a href="#top">&#5123;</a>
