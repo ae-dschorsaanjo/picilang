@@ -19,6 +19,7 @@ The grammar is simple and there are no exceptions\*.
 - [Numbers](#nu)
   - [General numbers](#gn)
   - [Precise numbers](#ps)
+  - [Operations, expressions](#op)
 - [Date and time](#dt)
 - [Names](#nimi)
   - [Transliterating names](#tl)
@@ -159,7 +160,7 @@ To express general numbers as nouns, you can always use `noj` (meaning "unit") o
 
 ### Precise numbers <a id="ps" href="#ps">&#5130;</a> <a href="#top">&#5123;</a>
 
-Precise numbers can be used as modifiers in noun phrases (as long as they are integers) or, alternatively, you can form a phrase meaning "X number of units of noun", "Y fractions of noun" or "X number and Y fractions of noun" using the nouns `noj` and `ta` to express units (whole numbers) and fractions respectively, `pi` to express "number of" and `ko` between the units and fractions. This latter form is called _long number expression_.  
+Precise numbers can be used as modifiers in noun phrases (as long as they are integers) or, alternatively, you can form a phrase meaning "X number of units of noun", "Y fractions of noun" or "X number and Y fractions of noun" using the nouns `noj` and `ta` to express units (whole numbers) and fractions respectively, `pi` to express "over" and `ko` between the units and fractions. This latter form is called _long number expression_.  
 If you only need to express a number, you can use `ta` in addition to the nouns listed under _general numbers_.
 
 Even though technically all numbers are compound words consisting multiple modifiers, the actual digits are treated and written as a simple modifier.
@@ -182,7 +183,11 @@ To use precise numbers, you can use the words from 0 to 9 and simply read out th
 _Negatives_ are formed by forming a compound modifier ending in `naj` (effectively adding a 0 to the highest decimal place). Negatives can be used on both units and fractions. In both cases they effectively move the number towards the left on the number line.  
 Similar to how negative numbers are formed, `ka` can be used to say _absolute values_, where the number can be either positive or negative. This feature is practically useless in real life.
 
-You can also express fractions (meaning literal fractions, "one third" and alike) by using long number expressions (whose value will be the numerator) and a simple integer as a modifier on the noun (that will be the denominator). Only fractions that has an integer denominator can be said this way, but there is no such restriction for the numerator.
+You can also express fractions (meaning literal fractions, "one third" and alike) by using long number expressions (whose value will be the numerator) and a simple integer as a modifier on the noun (that will be the denominator). Only fractions that has an integer denominator can be said this way, but there is no such restriction for the numerator. These parts are separated by `pi`.
+
+### Operations and expressions <a id="op" href="#op">&#5130;</a> <a href="#top">&#5123;</a>
+
+Picilang is not (yet?) designed to be able to express mathematical expressions accurately, however, there are some ways to express some of them. `ko` can be used to express addition, in basically the same as the _long number form_. As its counterpart, `ko-naj` can be used to express subtraction.
 
 ### Examples
 
@@ -191,7 +196,8 @@ You can also express fractions (meaning literal fractions, "one third" and alike
 - **-3.14**: _ti-naj noj ko pona-naj ta_ (-3 times 1 and -14 times 0.1) or _po-naj noj ko sitij ta_ (-4 \* 1 + 86 \* 0.1)
 - **69.96**: _nosi noj ko sino ta_
 - **1995**: _panonona_
-- **1/4**: _na noj pi po NO_ (one quarter NOUN)
+- **1/4**: _na noj pi po NO_ (one quarter NOUN, lit. one unit of four noun)
+- **9/2 things**: _no noj pi ko li_ (nine halves things, lit. nine unit of two things)
 - **|914| or abs(914)**: _ponano-ka_
 
 ## Date and time <a id="dt" href="#dt">&#5130;</a> <a href="#top">&#5123;</a>
