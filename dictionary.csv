@@ -1,28 +1,35 @@
 0Word	0Noun	0Verb	0Modifier	0Conjunction	0Preposition	0Note
 ka	any-	"using any method; (as standalone verb) replying ""whatever"" or ""whichever"""	any-; absolute value (number)	any-	any-	Expresses 'any of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
+kato	ability; potential	able to; can	potentially; potential; able; able to be		(only in compounds) potentially	In compound words works as an -able/ible suffix, however, it can attach to anything, except for conjunctions. In nouns it means “potentially; able to be”, in verbs “able to” (same as using “to” and second verb), in modifiers the usual “-able/ible” and in prepositions “possibly conjunctionon”, e.g. “possibly similar to” or “possibly within”.
 ki	collection (of); group (of)	multiply; gaining numbers; 'making plural'	plural; more than one; very			
 kili					through; across	
 kiti			small; little			
 kiti paw ko-si	small spoken language; Picilang					Descriptive native name of this language (but it is not exclusive for this language as a term).
+kiti-ki			small number of; multiple, but not many (relatively speaking)			It means a small number of something, but in relative terms, as in “less than expected”, however, it is always more than one. If you want to include the possibility of “one”, then use “kiti-nomi”.
+kiti-nomi			few; small number of			
 kitilosa				less or equal; worse or the same; fewer or equal to		
 kitisa				less than; worse than; fewer than		
 kiw	(answer to a kiw- question)	lose; misplace	missing; lost;			Used as a noun only when you answer kiw- (or wh-) questions.
 kiwko				(asking which conjunction)		
 kiwmo			which? what kind of? how?			
+kiwmo nomi			how many? which number?			
 kiwno	who? what?					
 kiwpi					(asking which preposition)	
 kiwti	enjoyment; fun; (non-sexual) pleasure	like; enjoy; please	pleasing; fun			
 kiwto		did what?				
 ko				and; accompanied by; with; (between numbers as an operation) plus		“With” as in “along with”, “on the side of” or “accompanied by”, not as in “using”.
-ko-naj				(between numbers as an operation) minus		
 ko	communication	communicate; transferring thoughts and information				
 ko	conjunction					
+ko-naj				(between numbers as an operation) minus		
 ko-si			language; system of communication			"As ""language"", it may or may not be verbal."
 kona	month					
 Kosapisota	B. Zoltán Gorza		"of B. Zoltán Gorza; ""mine""; absolutely true; positively"			
 koti	year					year (used only as a unit of time and not for expressing which year it is or something was)
 la	of this; 'that thing you are referring to'					Used to refer back to previous object of topic. In many cases interchangeable with 'li'. Only one of these can be used in each sentence!
-lata				by; via; was possible because		
+lata				by; via; was possible because; using		
+lata	animal	acting like an animal	animalistic; instinctive; instinctively			
+lata-ko	animal communication	(animals) communicate				
+lata-paw	animal roar; animal sound	(animals) make a sounds				
 li	thing; something; one; blank noun					Used similarily to English 'one' after adjectives. Also used when there would not be any nouns in the sentence (e.g. 'li nay' -- no; 'li lo' -- yes)
 lini				yet; despite the evidence/assumption/presumption		
 linito	the future	to become; grow into; transform into	future; to become			
@@ -39,13 +46,13 @@ lola	hour
 low	the past		previous	previously	in the past	
 low-koti	year (BCE)					year before common era
 ma	anti-; the opposite of	anti-; the opposite of	anti-; the opposite of;	anti-; the opposite of	anti-; the opposite of	Expresses 'the opposite of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
-ma	country; land belonging to or claimed by a group of people	animal or organism				
+ma	country; land belonging to or claimed by a group of people, animal or organism					
 ma					around; outside of	
 Mata			Hungarian			
 mi	standard	standardize				
 mi-koti	year (CE)					year in common era
 mi-tajmi	UTC time					
-miko		publish	published; publicly available			
+miko	published or publically available work, product or idea	publish	published; publicly available			
 mipi	human	acting like a human	humanoid; human-like; like a human			
 mo	modifier					
 moko					behind	
@@ -68,7 +75,7 @@ nomi	number	to count; to number; to assing numbers to	numeral; countable		number
 pa			five			
 pala	plant	vegetate				
 pala	friend	to be friend of	friendly			
-paw	sound		audible; auditory; verbal			
+paw	sound	to make a sound	audible; auditory; verbal			
 paw ko-si	(spoken) language					
 pi	possession; being in or object of ownership	have; possess; own	owned; possessed		of; belongs to; number of	
 pili	minute					
@@ -99,6 +106,8 @@ tajtaj				or (exclusive only in multiple choice questions)
 talo					into; go into; move into	
 tama					from; came out of; originates from	
 tana			big			
+tana-ki			many; more than expected			The opposite of “kiti-ki” and works the same way, only the other way around.
+tana-nomi			many; great number of			
 tanalosa				more or equal; better or the same; greater or equal to		
 tanasa				more than; better than; greater than		
 tati	date					
@@ -116,8 +125,3 @@ tinilosa				like; similar to; equal to; also known as
 to				that		"It makes the following sentence to become the previous sentence's object after certain verbs (such as ""to see"" or ""to think"") or verbs that would be auxiliary verbs in English (such as ""can"" or ""want"")."
 to	verb					
 to			two			
-kato	ability; potential	able to; can	potentially; potential; able; able to be		(only in compounds) potentially	In compound words works as an -able/ible suffix, however, it can attach to anything, except for conjunctions. In nouns it means “potentially; able to be”, in verbs “able to” (same as using “to” and second verb), in modifiers the usual “-able/ible” and in prepositions “possibly conjunctionon”, e.g. “possibly similar to” or “possibly within”.
-kiti-nomi			few; small number of			
-kiti-ki			small number of; multiple, but not many (relatively speaking)			It means a small number of something, but in relative terms, as in “less than expected”, however, it is always more than one. If you want to include the possibility of “one”, then use “kiti-nomi”.
-tana-nomi			many; great number of			
-tana-ki			many; more than expected			The opposite of “kiti-ki” and works the same way, only the other way around.
