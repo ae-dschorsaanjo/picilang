@@ -2,7 +2,7 @@
 ka	any-	"using any method; (as standalone verb) replying ""whatever"" or ""whichever"""	any-; absolute value (number)	any-	any-	Expresses 'any of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
 ki	collection (of); group (of)	multiply; gaining numbers; 'making plural'	plural; more than one; very			
 kili					through; across	
-kiti			small			
+kiti			small; little			
 kiti paw ko-si	small spoken language; Picilang					Descriptive native name of this language (but it is not exclusive for this language as a term).
 kitilosa				less or equal; worse or the same; fewer or equal to		
 kitisa				less than; worse than; fewer than		
@@ -13,7 +13,8 @@ kiwno	who? what?
 kiwpi					(asking which preposition)	
 kiwti	enjoyment; fun; (non-sexual) pleasure	like; enjoy; please	pleasing; fun			
 kiwto		did what?				
-ko				and		
+ko				and; accompanied by; with; (between numbers as an operation) plus		“With” as in “along with”, “on the side of” or “accompanied by”, not as in “using”.
+ko-naj				(between numbers as an operation) minus		
 ko	communication	communicate; transferring thoughts and information				
 ko	conjunction					
 ko-si			language; system of communication			"As ""language"", it may or may not be verbal."
@@ -24,7 +25,7 @@ la	of this; 'that thing you are referring to'					Used to refer back to previous
 lata				by; via; was possible because		
 li	thing; something; one; blank noun					Used similarily to English 'one' after adjectives. Also used when there would not be any nouns in the sentence (e.g. 'li nay' -- no; 'li lo' -- yes)
 lini				yet; despite the evidence/assumption/presumption		
-linito	the future		future; to become			
+linito	the future	to become; grow into; transform into	future; to become			
 linito-koti	year (ACE)					year after common era (I don’t have a definition when that would begin either)
 lisa	writing	text	write	written		
 lisi		search; seek; look for	searched for; looked for; wanted			
@@ -63,13 +64,13 @@ ni-lo	I (singular)		my; mine; my way; like me
 no	noun					
 no			nine			
 noj	unit; 'the whole unbroken thing'					It is the 'opposite' of 'ta'; 'ta' means a piece of fraction of a unit, while 'noy' is the whole, unbroken piece or unit
-nomi	number					
+nomi	number	to count; to number; to assing numbers to	numeral; countable		number of	
 pa			five			
 pala	plant	vegetate				
 pala	friend	to be friend of	friendly			
 paw	sound		audible; auditory; verbal			
 paw ko-si	(spoken) language					
-pi					of; belongs to; number of	
+pi	possession; being in or object of ownership	have; possess; own	owned; possessed		of; belongs to; number of	
 pili	minute					
 pini	finish; end	finish; end	finished; ended; over			
 Pitila	Picilang					Transliteration of the non-native name of this language (Picilang).
@@ -115,3 +116,8 @@ tinilosa				like; similar to; equal to; also known as
 to				that		"It makes the following sentence to become the previous sentence's object after certain verbs (such as ""to see"" or ""to think"") or verbs that would be auxiliary verbs in English (such as ""can"" or ""want"")."
 to	verb					
 to			two			
+kato	ability; potential	able to; can	potentially; potential; able; able to be		(only in compounds) potentially	In compound words works as an -able/ible suffix, however, it can attach to anything, except for conjunctions. In nouns it means “potentially; able to be”, in verbs “able to” (same as using “to” and second verb), in modifiers the usual “-able/ible” and in prepositions “possibly conjunctionon”, e.g. “possibly similar to” or “possibly within”.
+kiti-nomi			few; small number of			
+kiti-ki			small number of; multiple, but not many (relatively speaking)			It means a small number of something, but in relative terms, as in “less than expected”, however, it is always more than one. If you want to include the possibility of “one”, then use “kiti-nomi”.
+tana-nomi			many; great number of			
+tana-ki			many; more than expected			The opposite of “kiti-ki” and works the same way, only the other way around.
