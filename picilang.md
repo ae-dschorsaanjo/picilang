@@ -52,7 +52,7 @@ Compound words are hyphenated and for all intents and purposes are a single word
 An example for a compound word is _ko-si_, which means "communication system" or "system of communication".  
 Another example would be _ni-ki_, which is the 1st person plural pronoun ("we") that as a modifier means "our", "ours" or "our way". Same could be said all about all the other pronoun (including the ones that are not compound words).
 
-The "main", "more significant" or "broader" root word should be the first one and "specifying" roots precede them.  
+The "main", "more significant" or "broader" root word should be the first one and "specifying" roots proceed them, but this is not a hard rule and most, if not all, compound words' roots can be moved around within the word to fit the intended meaning better or to emphasize one aspect of the meaning (e.g. `si-ko` would emphasize the systematic nature, while `ko-si` emphasizes the communication aspect).  
 However, it is customary to place `naj`, `ma` and `lo` at the end of compound words, ta Kosapisota kiwti la.
 
 ## Parts of speech <a id="pos" href="#pos">&#5130;</a> <a href="#top">&#5123;</a>
