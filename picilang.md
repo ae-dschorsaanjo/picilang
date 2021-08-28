@@ -65,7 +65,7 @@ Foreign words can be any part of speech.
 ## Word order <a id="wo" href="#wo">&#5130;</a> <a href="#top">&#5123;</a>
 
 The basic sentence structure is SVO (subject-verb-object), where the subject and object are always noun phrases, the predicate is always a verb phrase.  
-Because the objects has to be noun phrases, sentences like "noun is adjective" are structured like "adjective noun is", e.g. _It is two._ would be _to na sa_ (literary "two it is").
+Because the objects has to be noun phrases, sentences like "noun is adjective" are structured like "adjective noun is", e.g. _It is two._ would be _to na sa_ (literary "two it is"). "Noun is noun" sentences are not affected and the previous "noun is adjective" sentence can be phrased as "noun is 'an adjective one'" using the "blank noun" _li_, for example _na sa to li_ (it is two things) instead of _to na sa_.
 
 Phrases are head-final (the modifiers precede the head). Modifier phrases are impossible.
 
