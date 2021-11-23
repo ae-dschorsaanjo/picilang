@@ -35,6 +35,15 @@ body {
     background-color: var(--sel-color);
 }
 
+a::selection {
+    color: var(--bg-color);
+}
+
+code::selection {
+    color: var(--sel-color);
+    background-color: var(--link-color);
+}
+
 body::-webkit-scrollbar {
     width: 14px;
 }
