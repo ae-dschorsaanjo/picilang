@@ -28,6 +28,17 @@ This project is still work in progress, however the general grammar is already d
 - The source code <a href="https://github.com/ae-dschorsaanjo/picilang">here</a>,
 - Or you can check out the website <a href="https://picilang.org">here</a>.
 
+## Acknowledgement <a id="acknowledgement" href="#acknowledgement">&#5130;</a><a></a>
+
+This language was, by how human brain works, inspired by or borrowed from various natural and constructed languages. Here I will try to account for these languages and works and what has been used from them:
+
+- English, Hungarian, German and possibly other natural languages (words and affected the recommended transliteration)
+- <a href="tokipona.org">toki pona</a> (general "minimalist language" concept, a few words and dictionary's layout)
+- <a href="https://dragonage.fandom.com/wiki/Qunlat">Qunlat</a>,  language of the Qunari in Dragon Age (minor effect on how some words sound inherited from a previous unfinished conlang of mine)
+- <a href="https://www.akademio-de-esperanto.org/">Esperanto</a> (how question words are formed)
+- H. P. Lovecraft's works (heavy influence on the <a href="?page=grammar#fiction">fictional origin</a> of Picilang)
+- Possibly many others, mainly subconsciously
+
 <div class="hide">
 
 ## License <a id="license" href="#license">&#5130;</a><a></a>
@@ -37,4 +48,5 @@ Copyright © 2021 ae-dschorsaanjo (b.zoltan.gorza@gmail.com)
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
 as published by Sam Hocevar. See the [COPYING](./COPYING) file for more details.
+
 </div>
