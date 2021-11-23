@@ -54,6 +54,7 @@ body::-webkit-scrollbar-thumb {
 a, a:hover, a:visited, a:active {
     color: var(--link-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
