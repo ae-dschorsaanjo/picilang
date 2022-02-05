@@ -269,12 +269,12 @@ Examples:
 
 ### Baby In A Backpack by Dan Bull (excerpt)
 
-| English                                     | Picilang                          |  |
-|---------------------------------------------|-----------------------------------|--|
-| Give me your hand in panic                  | ti kata ti kana lo pani          | you give your hand in fear  |
-| Give me your hand in haste                  | ti kata ti kana lo sani          | you give your hand in haste |
-| I know you can handle yourself              | ni sona to ti kato to loti ti-tinilo | I know that you can to handle yourself |
-| But damn it, just give me your hand in case | ti-paki ti kata ti kana lo ka-koto-litilo | but you give your hand in case\* |
+| English                                     | Picilang                                  |                                        |
+|---------------------------------------------|-------------------------------------------|----------------------------------------|
+| Give me your hand in panic                  | ti kata ti kana lo pani                   | you give your hand in fear             |
+| Give me your hand in haste                  | ti kata ti kana lo sani                   | you give your hand in haste            |
+| I know you can handle yourself              | ni sona to ti kato to loti ti-tinilo      | I know that you can to handle yourself |
+| But damn it, just give me your hand in case | ti-paki ti kata ti kana lo ka-koto-litilo | but you give your hand in case\*       |
 
 The "me" in "give me" is omitted, since it would be obvious in context.
 
