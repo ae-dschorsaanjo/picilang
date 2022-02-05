@@ -34,7 +34,7 @@ const POS_TITLE = [
     "modifier",
     "conjunction",
     "preposition",
-    "phrase"
+    "phrase",
     ""
 ];
 
