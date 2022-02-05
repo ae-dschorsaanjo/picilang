@@ -13,7 +13,8 @@ export const VERB = 2;
 export const MODIFIER = 3;
 export const CONJUNCTION = 4;
 export const PREPOSITION = 5;
-export const NOTE = 6;
+export const PHRASE = 6;
+export const NOTE = 7;
 
 const POS_LABEL = [
     "word",
@@ -22,6 +23,7 @@ const POS_LABEL = [
     "mod",
     "con",
     "pre",
+    "phr",
     "note"
 ];
 
@@ -32,6 +34,7 @@ const POS_TITLE = [
     "modifier",
     "conjunction",
     "preposition",
+    "phrase"
     ""
 ];
 
@@ -54,13 +57,13 @@ class CSVLine {
         line = line.replaceAll('"\t', "\t").replaceAll('\t"', '\t').replaceAll('""', '"');
         this.line_note_str = line;
         const s = this.line_note_str.split(this.delimiter);
-        this.line = s.splice(0, NOTE);
+        this.line = s.splice(WORD, NOTE);
         if (s[0].length > 0)
             this.line.push(s[0][0].toUpperCase() + s[0].substr(1));
         else
             this.line.push("");
-        this.line_str = this.line.slice(0, 6).join(" ");
-        this.line_noword_str = this.line.slice(1, 6).join(" ");
+        this.line_str = this.line.slice(WORD, NOTE).join(" ");
+        this.line_noword_str = this.line.slice(NOUN, NOTE).join(" ");
         // console.log(`${this.line_note_str}\n${this.line_str}\n${this.line_noword_str}`);
     }
 }
