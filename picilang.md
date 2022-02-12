@@ -209,7 +209,7 @@ Time can be expressed using a rather long phrase, so try to avoid using it, if p
 
 The words for "year (CE)", "year (BCE)", "month", ... and "seconds" are all nouns, connected by `ko`. Fractions of these can also be expressed using long number expressions. For a quick example, the current time (as of writing the first version of this paragraph) is:
 
-_2021-06-05 14:41:20_
+_2021-06-05 14:41:20_  
 tatitajmi pi ni sa natonajto mi-koti ko si kona ko pa napi ko pona lola ko napo pili ko najto siko.
 
 another example would be:
