@@ -73,7 +73,7 @@ Phrases are head-final (the modifiers precede the head). Modifier phrases are im
 Conjunctions are used to connect two phrases or sentences together. Joined sentences are separated by a comma.  
 When multiple phrases are joined by conjunctions, the conjunction has to be said every time (e.g. `ni ko ti ko na`, not `ni, ti ko na`).
 
-Prepositions are followed by noun phrases and are located at the end of sentences, and a comma may be used to separate them from the rest of the sentence.
+Prepositions are followed by noun phrases and are located at the end of sentences, and a comma may be used to separate them from the rest of the sentence. These are generally called _adverbials_.
 
 ## Sentence types <a id="st" href="#st">&#5130;</a> <a href="#top">&#5123;</a>
 
@@ -94,7 +94,7 @@ Interrogative sentences, also knows as "questions", has three types that have di
 - **Multiple choice questions**: somewhere in the sentence multiple choices are presented that are separated by `tajtaj` or `tajkotaj`; the former allows only one of the options to be correct, while the latter allows multiple choices (in other words, they work similarly to exclusive and inclusive or respectively)
 
 The **question words** are `kiwno`, `kiwto`, `kiwmo`, `kiwko` and `kiwpi`, that ask about which and are used in place of a noun, verb, modifier, conjunction or preposition respectively.  
-For certain questions (such as "why") a combination of a preposition or noun, and `kiwno` is used, such as `ta kiwno` means "why" and `nomi kiwmo` for "how many".
+For certain questions (such as "why") a combination of a preposition or noun, and `kiwno` is used, such as `ta kiwno` means "why", and `kiwmo nomi` (as a noun) or `nomi kiwmo` (as an adverbial) for "how many".
 
 Answers can be formed multiple ways, depending on what kind of question was used. The possible formats are the following:
 
