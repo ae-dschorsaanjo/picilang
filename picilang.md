@@ -214,7 +214,7 @@ tatitajmi pi ni sa natonajto mi-koti ko si kona ko pa napi ko pona lola ko napo 
 
 another example would be:
 
-_The time of finishing the this sentence is 15:11. Date's the same._  
+_The time of finishing this sentence is 15:11. Date's the same._  
 tajmi pi pini pi lisa na sa pana lola ko nana pili. tinilo tati sa.
 
 Fractions of times look like this:
