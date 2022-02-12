@@ -24,9 +24,11 @@ This project is still work in progress, however the general grammar is already d
 ## Where to find stuff <a id="whereto" href="#whereto">&#5130;</a><a></a>
 
 - Read the documentation <a id="doclink">here</a>,
-- Check out the raw dictionary <a id="dictlink">here</a>,
+- Check out the dictionary <a id="dictlink">here</a>,
 - The source code <a href="https://github.com/ae-dschorsaanjo/picilang">here</a>,
 - Or you can check out the website <a href="https://picilang.org">here</a>.
+
+The dictionary is stored in a tab-separated csv file that's first row contains the headers (prefixed with a `0` so auto-sort keeps them at the top even if headers are not explicitly supported by the editor).
 
 ## Acknowledgement <a id="acknowledgement" href="#acknowledgement">&#5130;</a><a></a>
 
