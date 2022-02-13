@@ -30,7 +30,7 @@ This project is still work in progress, however the general grammar is already d
 - small alphabet (a, i, o, j, w, k, l, m, n, p, s, t)
 - CVs syllables (Consonant, Vowel, optional semi-vowel)
 - 5 parts of speech (Noun, Verb, Modifier, Conjunction, Preposition)
-- no verb tenses, moods or aspects
+- no mandatory verb tenses, moods or aspects (however, tenses and aspects do exist)
 
 ## Where to find stuff <a id="whereto" href="#whereto">&#5130;</a><a></a>
 

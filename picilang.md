@@ -141,7 +141,10 @@ Imperative (commands and wishes) and exclamatory sentences are structurally the 
 
 ## Verb tenses and aspects <a id="tenses" href="#tenses">&#5130;</a> <a href="#top">&#5123;</a>
 
-Verb tenses are expressed via a series of modifiers, such as `moso` for future tense and `pini` for perfect aspect. Note that the aspects may not fully correspond to their English namesakes! (if there are any; see [aspect vs. tense](https://en.wikipedia.org/wiki/Grammatical_aspect#Aspect_vs._tense))   
+Verb tenses are expressed via a series of modifiers, such as `moso` for future tense and `pini` for perfect aspect. Note that the aspects may not fully correspond to their English namesakes! (if there are any; see [aspect vs. tense](https://en.wikipedia.org/wiki/Grammatical_aspect#Aspect_vs._tense))
+
+Any and all verb tenses and aspects are optional and to be omitted if context allows.
+
 Both tenses and aspect can be used on each verb, or in combinations with one another. When combined the compound word takes the form of _aspect-tense_.
 
 Full table of current tenses and aspects:
