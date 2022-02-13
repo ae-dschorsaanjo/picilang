@@ -8,8 +8,19 @@ This project is still work in progress, however the general grammar is already d
 
 ## Work in progress <a id="plans" href="#plans">&#5130;</a><a></a>
 
-- expand vocabulary
-- finetune design mainly for small resolution
+- expand vocabulary (forever ongoing)
+- finetune design mainly for small resolution (below 400 pixels)\*
+- add useful dictionary features
+  - search for exact words (as a separate option from pattern matching)
+  - pattern matching search
+  - filters
+    - show words being X part of speech
+  - reflect the search word and options in url
+  - "linkify" Picilang words
+  - keyboard shortcuts
+  - generate letter shortcuts
+
+\*: probably by the time I'll get around this one, there will be virtually no phones having presets that would result in such resolutions
 
 ## Features <a id="features" href="#features">&#5130;</a><a></a>
 
