@@ -15,6 +15,7 @@ The grammar is simple and there are no exceptions\*.
   - [Declarative sentences](#ds)
   - [Interrogative sentences](#is)
   - [Imperative sentences](#ims)
+- [Verb tenses and aspects](#tenses)
 - [naj, lo, ma, so and ka](#najlomasoka)
 - [Numbers](#nu)
   - [General numbers](#gn)
@@ -138,6 +139,21 @@ _la Pokasi sa._ \[You are\] Bulgarian. _ti Pokasi sa._ You are Bulgarian.
 
 Imperative (commands and wishes) and exclamatory sentences are structurally the same as declarative sentences, but they end with an exclamation mark.
 
+## Verb tenses and aspects <a id="tenses" href="#tenses">&#5130;</a> <a href="#top">&#5123;</a>
+
+Verb tenses are expressed via a series of modifiers, such as `moso` for future tense and `pini` for perfect aspect. Note that the aspects may not fully correspond to their English namesakes! (if there are any; see [aspect vs. tense](https://en.wikipedia.org/wiki/Grammatical_aspect#Aspect_vs._tense))   
+Both tenses and aspect can be used on each verb, or in combinations with one another. When combined the compound word takes the form of _aspect-tense_.
+
+Full table of current tenses and aspects:
+
+|             | -                  | low             | linito            |
+| ----------- | ------------------ | --------------- | ----------------- |
+| *-*         | present            | past            | future            |
+| *pini*      | present perfect    | past perfect    | future perfect    |
+| *moso*      | present continuous | past continuous | future continuous |
+| *liwtilini* | present accidental | past accidental | future accidental |
+<!-- | **  |     |     |     | -->
+
 ## naj, lo, ma, so and ka <a id="najlomasoka" href="#najlomasoka">&#5130;</a> <a href="#top">&#5123;</a>
 
 The words `naj`, `lo`, `ma`, `so` and `ka` are special in that they can be part of any compound word, but they normally cannot be used alone, except when they are used as numbers, or when they are part of a noun phrase and are used as modifiers.
@@ -168,7 +184,7 @@ Even though technically all numbers are compound words consisting multiple modif
 To use precise numbers, you can use the words from 0 to 9 and simply read out the number from lowest to highest decimal places (or "right to left"). These numbers are:
 
 | Word | Number |
-|------|--------|
+| ---- | ------ |
 | naj  | zero   |
 | na   | one    |
 | to   | two    |
@@ -270,7 +286,7 @@ Examples:
 ### Baby In A Backpack by Dan Bull (excerpt)
 
 | English                                     | Picilang                                  |                                        |
-|---------------------------------------------|-------------------------------------------|----------------------------------------|
+| ------------------------------------------- | ----------------------------------------- | -------------------------------------- |
 | Give me your hand in panic                  | ti kata ti kana lo pani                   | you give your hand in fear             |
 | Give me your hand in haste                  | ti kata ti kana lo sani                   | you give your hand in haste            |
 | I know you can handle yourself              | ni sona to ti kato to loti ti-tinilo      | I know that you can to handle yourself |
@@ -333,7 +349,7 @@ At this point... 5 years... Watson found a correlation between... _They_ brought
 I would like to be the first to say that yes, the way you answer questions is possibly (probably) overcomplicated, but let me offer you another way to look at it: you can choose how to answer based on your preference. Moreover, they have slightly different meaning or connotations. Here is a table for all\* the available combinations, their meanings and their connotations (as I interpret them; `~` means that this is the same as the one above) in the same order as they are described under [interrogative sentences](#is) answering the question _ti kiwti na kiti ko-si?_ (do you like this small language?):
 
 | Phrase                     | (Semi-literal) meaning                 | Connotation                                                                                                                                                                                  |
-|----------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | li lo                      | It's a yes.                            | Possibly dismissive, grammatically correct, but you might not understand or comprehend the question well enough and don't know which noun should be used.                                    |
 | li naj                     | It's a no.                             | ~                                                                                                                                                                                            |
 | li so                      | It's a maybe. It's an either.          | ~                                                                                                                                                                                            |
