@@ -2,7 +2,7 @@
 
  [<img src="img/WTFPL_badge.svg" class="badge">](http://www.wtfpl.net/)
 
-_Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti aw ko.si/ is a minimalist constructed language designed to be easy to learn and use, although it does not have any restrictions on number of words; the goal is to be easy to use even for beginners with the help of a dictionary.
+_Picilang_ /pi.t͡si.läŋɡ/ or _kiti paw ko-si_ /ki.ti paw ko.si/ is a minimalist constructed language designed to be easy to learn and use, although it does not have any restrictions on number of words; the goal is to be easy to use even for beginners with the help of a dictionary.
 
 This project is still work in progress, however the general grammar is already done and what is written will probably not change (in content). The dictionary is in very early stages and will be expanding constantly as the language sees more and more use.
 
