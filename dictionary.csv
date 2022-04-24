@@ -1,5 +1,6 @@
 0Word	0Noun	0Verb	0Modifier	0Conjunction	0Preposition	0Adverbial	0Sentence	0Note
 ka	any-	"using any method; (as standalone verb) replying ""whatever"" or ""whichever"""	any-; absolute value (number); (in compound words) absolute, superlative	any-	any-			Expresses 'any of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech. Also used to express superlatives of modifiers in noun phrases.
+ka-koto litilo	worst case							It is a noun phrase.
 kana	"hand; fore, grasping or ""primary"" appendages"	interact with using hands; hold, touch or feel with hands 	being touched or held in hands					
 kapi	event; happening	happen	happened; factual; known thing of the past					
 kata		give; donate; hand over						Giving voluntarily, with consent or permission.
@@ -31,6 +32,7 @@ ko	communication	communicate; transferring thoughts and information
 ko	conjunction							
 ko-naj				(between numbers as an operation) minus				
 ko-si			language; system of communication					"As ""language"", it may or may not be verbal."
+kolo	ground; earth; base level							
 kona	month							
 Kosapisota	B. Zoltán Gorza		"of B. Zoltán Gorza; ""mine""; absolutely true; positively"					
 koti	year							year (used only as a unit of time and not for expressing which year it is or something was)
@@ -120,18 +122,22 @@ sani	haste; urgency; emergency		urgent; hasty
 si	system		according to the system; systematic; systematically					
 si			six					
 siko	seconds							
+siko	tool; instrument; object that serves a specific purpose	using tools	specialized; purpose made; in a specialized manner (according to current task)					
+siko tajmi-sola	sundial							
 sipi					in front of			
 siw					above; on top of			
 siw			sever					
 so	every-;every one of; all	"every possible way; (as standalone verb answering yes-no questions) replying ""maybe""; (as standalone verb answering choice questions) replying ""all"""	every-;every one of; all; in every way	every-;every one of	every-;every one of			Expresses 'every one of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
 so-lo	being alone in every way	being alone in every way	alone (every possible way)					"This word being ""solo"" was not planned, but worked out perfectly"
+sola	the sun (of our solar system); Sol		solar					
 sona	knowledge; act of knowing	know	known; familiar					
 ta				for; because; so; thus	for; to			"Introduces a consequence or rationale. It is also used for asking ""why"", when used as a preposition followed by ""kiwno""."
-ta	fraction; a piece of; 0.1	to fraction; to disassamble; to split	fractioned; broken; split up; cut up; disassambled					The 0.1 meaning is effectively the same as 'numbers behind the decimal point'.
+ta	fraction; a piece of; 0.1	to fraction; to disassamble; to split	fractioned; broken; split up; cut up; disassembled					The 0.1 meaning is effectively the same as 'numbers behind the decimal point'.
 taj				or (exclusive)				
 tajko				or (inclusive); and/or				
 tajkotaj				or (inclusive only in multiple choice questions)				
-tajmi	time							
+tajmi	time		timeous; timely; timebound					
+tajmi-sola			(of?) solar time					While it usually overlaps with 'napi' (day), tajmi-sola is more general, can mean any sun-related time and cannot be used as a unit of measurement.
 tajtaj				or (exclusive only in multiple choice questions)				
 talo					into; go into; move into			
 tama					from; came out of; originates from			
@@ -152,7 +158,7 @@ ti-tinilo	yourself
 tij			eight					
 tili	tree							
 tina	creation	create; make from scratch	created; artificial					
-tinilo			same; unchanged; equal					
+tinilo	self (when combined with pronoun)		same; unchanged; equal					
 tinilosa				like; similar to; equal to; also known as				
 to				that				"It makes the following sentence to become the previous sentence's object after certain verbs (such as ""to see"" or ""to think"") or verbs that would be auxiliary verbs in English (such as ""can"" or ""want"")."
 to	verb							

@@ -54,7 +54,10 @@ An example for a compound word is _ko-si_, which means "communication system" or
 Another example would be _ni-ki_, which is the 1st person plural pronoun ("we") that as a modifier means "our", "ours" or "our way". Same could be said all about all the other pronoun (including the ones that are not compound words).
 
 The "main", "more significant" or "broader" root word should be the first one and "specifying" roots proceed them, but this is not a hard rule and most, if not all, compound words' roots can be moved around within the word to fit the intended meaning better or to emphasize one aspect of the meaning (e.g. `si-ko` would emphasize the systematic nature, while `ko-si` emphasizes the communication aspect).  
-However, it is customary to place `naj`, `ma` and `lo` at the end of compound words, ta Kosapisota kiwti la.
+However, when they are used, it is customary to place `naj`, `ma` and `lo` at the end of compound words, _ta Kosapisota kiwti la_.
+
+It is generally recommended to avoid creating compound words composed of three or more root words, for example:  
+instead of _siko-tajmi-sola_ (sun dial, ~tool-time-sun) say _siko tajmi-sola_ (~solar-timely tool) or _siko pi tajmi-sola_ (tool of solar-time).
 
 ## Parts of speech <a id="pos" href="#pos">&#5130;</a> <a href="#top">&#5123;</a>
 
@@ -69,7 +72,7 @@ Foreign words can be any part of speech.
 The basic sentence structure is SVO (subject-verb-object), where the subject and object are always noun phrases, the predicate is always a verb phrase.  
 Because the objects has to be noun phrases, sentences like "noun is adjective" are structured like "adjective noun is", e.g. _It is two._ would be _to na sa_ (literary "two it is"). "Noun is noun" sentences are not affected and the previous "noun is adjective" sentence can be phrased as "noun is 'an adjective one'" using the "blank noun" _li_, for example _na sa to li_ (it is two things) instead of _to na sa_.
 
-Phrases are head-final (the modifiers precede the head). Modifier phrases are impossible.
+Phrases are head-final (the modifiers precede the head). Modifier phrases are impossible; use compound modifier words instead.
 
 Conjunctions are used to connect two phrases or sentences together. Joined sentences are separated by a comma.  
 When multiple phrases are joined by conjunctions, the conjunction has to be said every time (e.g. `ni ko ti ko na`, not `ni, ti ko na`).
@@ -293,7 +296,7 @@ Examples:
 | Give me your hand in panic                  | ti kata ti kana lo pani                   | you give your hand in fear             |
 | Give me your hand in haste                  | ti kata ti kana lo sani                   | you give your hand in haste            |
 | I know you can handle yourself              | ni sona to ti kato to loti ti-tinilo      | I know that you can to handle yourself |
-| But damn it, just give me your hand in case | ti-paki ti kata ti kana lo ka-koto-litilo | but you give your hand in case\*       |
+| But damn it, just give me your hand in case | ti-paki ti kata ti kana lo ka-koto litilo | but you give your hand in case\*       |
 
 The "me" in "give me" is omitted, since it would be obvious in context.
 
