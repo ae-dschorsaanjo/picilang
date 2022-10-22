@@ -8,6 +8,9 @@ kato	ability; potential	able to; can	potentially; potential; able; able to be		(
 ki	collection (of); group (of)	multiply; gaining numbers; 'making plural'	plural; more than one; very; (in compound words) more					Also used with modifiers to create comparatives meaning 'more X'
 kij	place	place; put down	placed; stationary					
 kili					through; across			
+kini	kin; sibling, 1st cousin, close friend, brother-in-arms	to consider someone a _kine_	kin, familiar					Closest relation in the same generation (same row as self on a family tree)
+kini-misisi	distant relative (same generation, 2nd or higher degree cousing)							
+kini-po	close relative (same generation, sibling or 1st cousin)		cousin, related and of the same generation					
 kiti			small; little					
 kiti paw ko-si	small spoken language; Picilang							Descriptive native name of this language (but it is not exclusive for this language as a term).
 kiti-ki			small number of; multiple, but not many (relatively speaking)					It means a small number of something, but in relative terms, as in “less than expected”, however, it is always more than one. If you want to include the possibility of “one”, then use “kiti-nomi”.
@@ -46,10 +49,12 @@ lata-ko	animal communication	(animals) communicate
 lata-paw	animal roar; animal sound	(animals) make a sounds						
 li	thing; something; one; blank noun							Used similarily to English 'one' after adjectives. Also used when there would not be any nouns in the sentence (e.g. 'li nay' -- no; 'li lo' -- yes)
 li paki!							Damn it! Screw it!	
+liki	the (physical) right side		right					
 lini				yet; despite the evidence/assumption/presumption				
 linito	the future	to become; grow into; transform into	future; to become; (before verbs) future tense		future; in the future it shall be(come)			
 linito-koti	year (ACE)							year after common era (I don’t have a definition when that would begin either)
 lipi	elf	acting like an elf	elven; elvish					Similar to ’mipi’, but used for elves (mythological or Tolkienian).
+lipi	the left side		left					
 lisa	writing	text	write	written				
 lisi		search; seek; look for	searched for; looked for; wanted					
 lisi	emotion; feeling; abstraction	feel (an emotion); think (emotionally, not logically)	emotional; emotionally; in an abstract way or sense; abstract					
@@ -76,8 +81,9 @@ mi-koti	year (CE)							year in common era
 mi-tajmi	UTC time							
 miko	published or publically available work, product or idea	publish	published; publicly available					
 mipi	human	acting like a human	humanoid; human-like; like a human					
+misisi			far		far from			
 mo	modifier							
-moko					behind			
+moko	behind		behind, hind		behind			
 moso	continuation; unfinishness	continue; keep (continue doing)	ongoing; continuous(ly); current(ly); (before verbs) aspect tense		while being			
 moso-linito			(before verbs) continuous future					
 moso-low			(before verbs) continuous past					
@@ -88,7 +94,11 @@ na-ki	they		their; theirs; their way; like them
 na-lo	he; she; it		his/her/its; his/hers/its; his/her/its way; like him/her/it					
 na-tinilo	itself; herself; himself							
 naj	not	not; (as standalone verb) replying 'no'	not; zero; null; negative (number)	not	not			Expresses 'not X'. As a number, it can be used for the digit zero, or can be used in a compound modifier's end to express negatives. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
-napa					below; underneath			
+napa	underneath				below; underneath, under			
+napa kini-misisi	distant relative, younger generations (great-grandchildren and down)							
+napa kini-po	close relative, younger generations (sons, daughters, grandchildren, nieces, nephews)							
+napa-misisi kini-po	granddaughter or son							
+napa-po kini-po	daughter or son							
 napi	day							
 napi-ki	week; collection of days							In a general sense it is the unit of previously agreed upon number of days, which is usually 7 days, making a week.
 ni	I; me; 1st person pronoun		my; our; mine; ours; my way; our way; like me; like us					
@@ -113,7 +123,7 @@ pini	finish; end	finish; end	finished; ended; over; (before verbs) perfect aspec
 pini-linito			(before verbs) future perfect					
 pini-low			(before verbs) past perfect					
 Pitila	Picilang							Transliteration of the non-native name of this language (Picilang).
-po					besides; on the side of; in close proximity to			
+po	immediate surrounding		close; side		besides; on the side of; in close proximity to; also			
 po			four					
 Pokasi			Bulgarian					
 poto	material;	exist, materialize or present physically, in a material form	physical; physically; material					
@@ -126,9 +136,13 @@ si			six
 siko	seconds							
 siko	tool; instrument; object that serves a specific purpose	using tools	specialized; purpose made; in a specialized manner (according to current task)					
 siko tajmi-sola	sundial							
-sipi					in front of			
-siw					above; on top of			
+sipi	front				in front of			
+siw	overneath				above; on top of; over			
 siw			sever					
+siw kini-misisi	distant relative, older generations (great-grandparents and up)							
+siw kini-po	close relative, older generations (parents, grandparents, aunts, uncles)							
+siw-napa kini-po	grandparent							
+siw-po kini-po	parent							
 so	every-;every one of; all	"every possible way; (as standalone verb answering yes-no questions) replying ""maybe""; (as standalone verb answering choice questions) replying ""all"""	every-;every one of; all; in every way	every-;every one of	every-;every one of			Expresses 'every one of X'. Can be used either as a modifier in noun and verb phrases, or as part of a compound words for other parts of speech.
 so-lo	being alone in every way	being alone in every way	alone (every possible way)					"This word being ""solo"" was not planned, but worked out perfectly"
 sola	the sun (of our solar system); Sol		solar					
@@ -137,17 +151,25 @@ ta				for; because; so; thus	for; to			"Introduces a consequence or rationale. I
 ta	fraction; a piece of; 0.1	to fraction; to disassamble; to split	fractioned; broken; split up; cut up; disassembled					The 0.1 meaning is effectively the same as 'numbers behind the decimal point'.
 taj				or (exclusive)				
 tajko				or (inclusive); and/or				
-tajkotaj				or (inclusive only in multiple choice questions)				
+tajkotaj				or (inclusive, only in multiple choice questions)				
 tajmi	time		timeous; timely; timebound					
 tajmi-sola			(of?) solar time					While it usually overlaps with 'napi' (day), tajmi-sola is more general, can mean any sun-related time and cannot be used as a unit of measurement.
-tajtaj				or (exclusive only in multiple choice questions)				
+tajtaj				or (exclusive, only in multiple choice questions)				
+taliki					to the right of			
+talipi					to the left of			
 talo					into; go into; move into			
 tama					from; came out of; originates from			
+tamisisi			(moving) away		away from			
+tamoko					to behind			
 tana			big					
 tana-ki			many; more than expected					The opposite of “kiti-ki” and works the same way, only the other way around.
 tana-nomi			many; great number of					
 tanalosa				more or equal; better or the same; greater or equal to				
+tanapa					to under			
 tanasa				more than; better than; greater than				
+tapo					towards, to the side of			
+tasipi					to the front of, towards			
+tasiw			over		to over, to above, upwards to			
 tati	date							
 tatitajmi	datetime (date and time)							
 ti				but; regardless of previous statement; although; even though				
