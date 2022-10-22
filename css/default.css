@@ -176,6 +176,15 @@ img {
     white-space: nowrap;
 }
 
+.wrap {
+    white-space: normal;
+}
+
+.newline {
+    flex-basis: 100%;
+    display: block;
+}
+
 .no {
     color: var(--anti-link-color);
 }
@@ -262,12 +271,24 @@ img {
     background-color: white;
 }
 
+#dict-head input[type=checkbox] {
+    margin-right: 0.7ch;
+}
+
+#dict-head input[type=checkbox]:not(:first-of-type) {
+    margin-left: 0.7em;
+}
+
 #dict-head select, #dict-head button {
     cursor: pointer;
 }
 
 #dict-head input {
     width: 10em;
+}
+
+#dict-head input[type=checkbox] {
+    width: fit-content;
 }
 
 #csv-out-body .entry {

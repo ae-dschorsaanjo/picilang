@@ -51,6 +51,22 @@
                     <button id="csv-clear">Clear</button>
                     <span id="csv-feedback" class="nowrap"></span>
                 </span>
+                <span class="nowrap newline">Filters:
+                    <span class="wrap" id="filters">
+                        <input type="checkbox" id="filter-n" checked>
+                        <label for="filter-n">Noun</label>
+                        <input type="checkbox" id="filter-v" checked>
+                        <label for="filter-v">Verb</label>
+                        <input type="checkbox" id="filter-m" checked>
+                        <label for="filter-m">Modifier</label>
+                        <input type="checkbox" id="filter-c" checked>
+                        <label for="filter-c">Conjunction</label>
+                        <input type="checkbox" id="filter-p" checked>
+                        <label for="filter-p">Preposition</label>
+                        <input type="checkbox" id="filter-a" checked>
+                        <label for="filter-a">Adverbial</label>
+                    </span>
+                </span>
             </div>
             <div id="csv-out-body"></div>
         </div>
@@ -94,7 +110,11 @@
             "dictionary.csv",
             "csv-search",
             "csv-mode",
-            "csv-btn"
+            "csv-btn",
+            [
+                "filter-n", "filter-v", "filter-m",
+                "filter-c", "filter-p", "filter-a"
+            ]
         );
 
         function searchResults() {
@@ -105,6 +125,7 @@
             feedback.innerText = "";
             csv.buildResults(csvanilla.master.lines, "csv-out-body");
             csvanilla.textinput.value = "";
+            csvanilla.filters.forEach(f => f.checked = true);
         }
 
         status.innerHTML = "&#10008;";

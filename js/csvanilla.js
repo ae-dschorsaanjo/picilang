@@ -81,14 +81,26 @@ class CSV {
         }
     }
 
-    search(term, mode) {
+    search(term, mode, filters) {
         let results = [];
         term = term.toLowerCase();
         for (let l of this.lines) {
-            if ((mode == 1 && l.line[WORD].includes(term)) ||
-                (mode == 2 && l.line_noword_str.includes(term)) ||
-                (mode == 3 && l.line_str.includes(term)) ||
-                (mode == 0 && l.line_note_str.includes(term)))
+            if (
+                (!term // search is empty, then don't filter for term
+                    || (   (mode == 1 && l.line[WORD].includes(term))
+                        || (mode == 2 && l.line_noword_str.includes(term))
+                        || (mode == 3 && l.line_str.includes(term))
+                        || (mode == 0 && l.line_note_str.includes(term)))
+                )
+            &&  ( // only show items that has definition to filter
+                        (filters[NOUN] && l.line[NOUN])
+                    ||  (filters[VERB] && l.line[VERB])
+                    ||  (filters[MODIFIER] && l.line[MODIFIER])
+                    ||  (filters[CONJUNCTION] && l.line[CONJUNCTION])
+                    ||  (filters[PREPOSITION] && l.line[PREPOSITION])
+                    ||  (filters[PHRASE] && l.line[PHRASE])
+                )
+            )
                 results.push(l);
         }
         results.sort((a, b) => {
@@ -106,16 +118,7 @@ export function buildResults(lines, bodyname) {
     const tbody = document.getElementById(bodyname);
     tbody.innerHTML = "";
     if (lines === undefined || lines.length == 0) return 0;
-    // let tr, td;
-    // for (let l of lines) {
-    //     tr = document.createElement("tr");
-    //     for (let d of l.line) {
-    //         td = document.createElement("td");
-    //         td.innerText = d;
-    //         tr.appendChild(td);
-    //     }
-    //     tbody.appendChild(tr);
-    // }
+    
     let d, d2;
     for (let l of lines) {
         d = document.createElement("div");
@@ -165,16 +168,24 @@ export class CSVanilla {
     output;
 
     /**
+     * Checkboxes including parts of speech
+     * @type {}
+     */
+    filters;
+
+    /**
      * 
      * @param {string} filename Comma separated values file's name
      * @param {string} textinput 
      * @param {string} modeselect 
-     * @param {string} button 
+     * @param {string} button
+     * @param {HTMLInputElement[]} filters
      */
-    constructor(filename, textinput, modeselect, button) {
+    constructor(filename, textinput, modeselect, button, filters) {
         this.textinput = document.getElementById(textinput);
         this.modeselect = document.getElementById(modeselect);
         this.button = document.getElementById(button);
+        this.filters = filters.map(e => document.getElementById(e));
         let tmp;
         fetch(filename)
             .then(r => r.text())
@@ -185,7 +196,7 @@ export class CSVanilla {
 
     search() {
         const term = this.textinput.value.trim();
-        if (!term) return;
+        // if (!term) return;
         let mode = 0;
         switch (this.modeselect.value) {
             case "Picilang":
@@ -198,6 +209,6 @@ export class CSVanilla {
                 mode = 3;
                 break;
         }
-        return this.master.search(term, mode);
+        return this.master.search(term, mode, [undefined, ...this.filters.map(f => f.checked)]);
     }
 }
